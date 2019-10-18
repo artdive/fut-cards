@@ -1,7 +1,7 @@
 {
     "name": "fut-cards",
     "description": "...",
-    "main": "./dist/js/index.js",
+    "main": "./src/js/index.js",
     "author": {
         "name": "Konstantin Nurislamov",
         "email": "artdive@ya.ru"
