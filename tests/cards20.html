@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FUT 20 Cards</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../dist/css/cards20.min.css">
+</head>
+<body>
+
+<div id="test">
+
+    <div>
+        <div v-for="(card, key) in cards20" style="display: inline-flex">
+            <fut-card
+                    fifa="20"
+                    :version="card.class"
+                    rating="90"
+                    position="GK"
+                    name="Ter Stegen"
+                    nation="https://cdn.futcoin.ru/img/nation20/52.png"
+                    club="https://cdn.futcoin.ru/img/club20/241.png"
+                    picture="https://cdn.futcoin.ru/img/players20/192448.png"
+                    :attrs="[87, 92, 92, 96, 39, 66]"
+            ></fut-card>
+        </div>
+    </div>
+
+    <div>
+        <div v-for="(card, key) in cards20" style="display: inline-flex">
+            <fut-card
+                    fifa="20"
+                    :version="card.class"
+                    size="small"
+                    rating="90"
+                    position="GK"
+                    name="Ter Stegen"
+                    nation="https://cdn.futcoin.ru/img/nation20/52.png"
+                    club="https://cdn.futcoin.ru/img/club20/241.png"
+                    picture="https://cdn.futcoin.ru/img/players20/192448.png"
+                    :attrs="[87, 92, 92, 96, 39, 66]"
+            ></fut-card>
+        </div>
+    </div>
+
+    <div>
+        <div v-for="(card, key) in cards20" style="display: inline-flex">
+            <fut-card
+                    fifa="20"
+                    :version="card.class"
+                    rating="90"
+                    position="GK"
+                    name="Ter Stegen"
+                    nation="https://cdn.futcoin.ru/img/nation20/52.png"
+                    club="https://cdn.futcoin.ru/img/club20/241.png"
+                    picture="https://www.futwiz.com/assets/img/fifa20/faces/67301849.png"
+                    :picture-special="true"
+                    :attrs="[87, 92, 92, 96, 39, 66]"
+            ></fut-card>
+        </div>
+    </div>
+
+</div>
+
+<script src="../dist/js/test.js"></script>
+
+</body>
+</html>
