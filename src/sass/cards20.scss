@@ -292,7 +292,7 @@
     /* --------- */
 
     &.icon.gold.rare {
-      background-image: url("../images/20/icon.png");
+      background-image: url("../images/cards/20/icon.png");
       color: #625217;
 
       .playercard-line {
@@ -300,12 +300,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/icon.png");
+        background-image: url("../images/cards/20/small/icon.png");
       }
     }
 
     &.gold.rare {
-      background-image: url("../images/20/gold.png");
+      background-image: url("../images/cards/20/gold.png");
       color: #4d331f;
 
       .playercard-line {
@@ -313,12 +313,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/gold.png");
+        background-image: url("../images/cards/20/small/gold.png");
       }
     }
 
     &.gold.non-rare {
-      background-image: url("../images/20/gold_non_rare.png");
+      background-image: url("../images/cards/20/gold_non_rare.png");
       color: #4d331f;
 
       .playercard-line {
@@ -326,12 +326,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/gold_non_rare.png");
+        background-image: url("../images/cards/20/small/gold_non_rare.png");
       }
     }
 
     &.silver.rare {
-      background-image: url("../images/20/silver.png");
+      background-image: url("../images/cards/20/silver.png");
       color: #3b3d41;
 
       .playercard-line {
@@ -339,12 +339,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/silver.png");
+        background-image: url("../images/cards/20/small/silver.png");
       }
     }
 
     &.silver.non-rare {
-      background-image: url("../images/20/silver_non_rare.png");
+      background-image: url("../images/cards/20/silver_non_rare.png");
       color: #3b3d41;
 
       .playercard-line {
@@ -352,12 +352,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/silver_non_rare.png");
+        background-image: url("../images/cards/20/small/silver_non_rare.png");
       }
     }
 
     &.bronze.rare {
-      background-image: url("../images/20/bronze.png");
+      background-image: url("../images/cards/20/bronze.png");
       color: #4d331f;
 
       .playercard-line {
@@ -365,12 +365,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/bronze.png");
+        background-image: url("../images/cards/20/small/bronze.png");
       }
     }
 
     &.bronze.non-rare {
-      background-image: url("../images/20/bronze_non_rare.png");
+      background-image: url("../images/cards/20/bronze_non_rare.png");
       color: #4d331f;
 
       .playercard-line {
@@ -378,12 +378,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/bronze_non_rare.png");
+        background-image: url("../images/cards/20/small/bronze_non_rare.png");
       }
     }
 
     &.if.gold.rare {
-      background-image: url("../images/20/gold_if.png");
+      background-image: url("../images/cards/20/gold_if.png");
       color: #e1c775;
 
       .playercard-name {
@@ -395,12 +395,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/gold_if.png");
+        background-image: url("../images/cards/20/small/gold_if.png");
       }
     }
 
     &.if.silver.rare {
-      background-image: url("../images/20/silver_if.png");
+      background-image: url("../images/cards/20/silver_if.png");
       color: #cdd9e1;
 
       .playercard-name {
@@ -412,12 +412,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/silver_if.png");
+        background-image: url("../images/cards/20/small/silver_if.png");
       }
     }
 
     &.if.bronze.rare {
-      background-image: url("../images/20/bronze_if.png");
+      background-image: url("../images/cards/20/bronze_if.png");
       color: #ca945f;
 
       .playercard-name {
@@ -429,12 +429,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/bronze_if.png");
+        background-image: url("../images/cards/20/small/bronze_if.png");
       }
     }
 
     &.otw.gold.rare {
-      background-image: url("../images/20/otw.png");
+      background-image: url("../images/cards/20/otw.png");
       color: #FC5461;
 
       .playercard-name {
@@ -446,12 +446,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/otw.png");
+        background-image: url("../images/cards/20/small/otw.png");
       }
     }
 
     &.sbc_premium.gold.rare {
-      background-image: url("../images/20/sbc_premium.png");
+      background-image: url("../images/cards/20/sbc_premium.png");
       color: #00FCFF;
 
       .playercard-line {
@@ -459,12 +459,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/sbc_premium.png");
+        background-image: url("../images/cards/20/small/sbc_premium.png");
       }
     }
 
     &.sbc_flashback.gold.rare {
-      background-image: url("../images/20/sbc_flashback.png");
+      background-image: url("../images/cards/20/sbc_flashback.png");
       color: #EBFFB0;
 
       .playercard-line {
@@ -472,12 +472,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/sbc_flashback.png");
+        background-image: url("../images/cards/20/small/sbc_flashback.png");
       }
     }
 
     &.potm_epl.gold.rare {
-      background-image: url("../images/20/potm_epl.png");
+      background-image: url("../images/cards/20/potm_epl.png");
       color: #05F1FF;
 
       .playercard-line {
@@ -485,12 +485,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/potm_epl.png");
+        background-image: url("../images/cards/20/small/potm_epl.png");
       }
     }
 
     &.potm_bundesliga.gold.rare {
-      background-image: url("../images/20/potm_bundesliga.png");
+      background-image: url("../images/cards/20/potm_bundesliga.png");
       color: #F5F5F5;
 
       .playercard-line {
@@ -498,12 +498,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/potm_bundesliga.png");
+        background-image: url("../images/cards/20/small/potm_bundesliga.png");
       }
     }
 
     &.potm_mls.gold.rare {
-      background-image: url("../images/20/potm_mls.png");
+      background-image: url("../images/cards/20/potm_mls.png");
       color: #ffffff;
 
       .playercard-line {
@@ -511,12 +511,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/potm_mls.png");
+        background-image: url("../images/cards/20/small/potm_mls.png");
       }
     }
 
     &.potm_ligue1.gold.rare {
-      background-image: url("../images/20/potm_ligue1.png");
+      background-image: url("../images/cards/20/potm_ligue1.png");
       color: #DBE120;
 
       .playercard-line {
@@ -524,12 +524,12 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/potm_ligue1.png");
+        background-image: url("../images/cards/20/small/potm_ligue1.png");
       }
     }
 
     &.halloween.gold.rare {
-      background-image: url("../images/20/halloween.png");
+      background-image: url("../images/cards/20/halloween.png");
       color: #FF690D;
 
       .playercard-line {
@@ -537,7 +537,7 @@
       }
 
       &.playercard-small {
-        background-image: url("../images/20/small/halloween.png");
+        background-image: url("../images/cards/20/small/halloween.png");
       }
     }
 
