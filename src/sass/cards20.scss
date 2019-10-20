@@ -291,255 +291,260 @@
 
     /* --------- */
 
-    &.icon.gold.rare {
-      background-image: url("../images/cards/20/icon.png");
-      color: #625217;
+    &.bronze {
+      &.non-rare {
+        background-image: url("../images/cards/20/bronze_non_rare.png");
+        color: #4d331f;
 
-      .playercard-line {
-        border-color: #aa9e6f;
+        .playercard-line {
+          border-color: #403322;
+        }
+
+        &.playercard-small {
+          background-image: url("../images/cards/20/small/bronze_non_rare.png");
+        }
       }
 
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/icon.png");
-      }
-    }
+      &.rare {
+        background-image: url("../images/cards/20/bronze.png");
+        color: #4d331f;
 
-    &.gold.rare {
-      background-image: url("../images/cards/20/gold.png");
-      color: #4d331f;
+        .playercard-line {
+          border-color: #4E331C;
+        }
 
-      .playercard-line {
-        border-color: #645215;
-      }
+        &.playercard-small {
+          background-image: url("../images/cards/20/small/bronze.png");
+        }
 
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/gold.png");
-      }
-    }
+        &.if {
+          background-image: url("../images/cards/20/bronze_if.png");
+          color: #ca945f;
 
-    &.gold.non-rare {
-      background-image: url("../images/cards/20/gold_non_rare.png");
-      color: #4d331f;
+          .playercard-name {
+            color: #e2a487;
+          }
 
-      .playercard-line {
-        border-color: #574A2B;
-      }
+          .playercard-line {
+            border-color: #967552;
+          }
 
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/gold_non_rare.png");
-      }
-    }
-
-    &.silver.rare {
-      background-image: url("../images/cards/20/silver.png");
-      color: #3b3d41;
-
-      .playercard-line {
-        border-color: #393E3F;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/silver.png");
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/bronze_if.png");
+          }
+        }
       }
     }
 
-    &.silver.non-rare {
-      background-image: url("../images/cards/20/silver_non_rare.png");
-      color: #3b3d41;
+    &.silver {
+      &.non-rare {
+        background-image: url("../images/cards/20/silver_non_rare.png");
+        color: #3b3d41;
 
-      .playercard-line {
-        border-color: #343839;
+        .playercard-line {
+          border-color: #343839;
+        }
+
+        &.playercard-small {
+          background-image: url("../images/cards/20/small/silver_non_rare.png");
+        }
       }
 
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/silver_non_rare.png");
-      }
-    }
+      &.rare {
+        background-image: url("../images/cards/20/silver.png");
+        color: #3b3d41;
 
-    &.bronze.rare {
-      background-image: url("../images/cards/20/bronze.png");
-      color: #4d331f;
+        .playercard-line {
+          border-color: #393E3F;
+        }
 
-      .playercard-line {
-        border-color: #4E331C;
-      }
+        &.playercard-small {
+          background-image: url("../images/cards/20/small/silver.png");
+        }
 
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/bronze.png");
-      }
-    }
+        &.if {
+          background-image: url("../images/cards/20/silver_if.png");
+          color: #cdd9e1;
 
-    &.bronze.non-rare {
-      background-image: url("../images/cards/20/bronze_non_rare.png");
-      color: #4d331f;
+          .playercard-name {
+            color: #b0bcc8;
+          }
 
-      .playercard-line {
-        border-color: #403322;
-      }
+          .playercard-line {
+            border-color: #8D96A0;
+          }
 
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/bronze_non_rare.png");
-      }
-    }
-
-    &.if.gold.rare {
-      background-image: url("../images/cards/20/gold_if.png");
-      color: #e1c775;
-
-      .playercard-name {
-        color: #fce398;
-      }
-
-      .playercard-line {
-        border-color: #B19B58;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/gold_if.png");
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/silver_if.png");
+          }
+        }
       }
     }
 
-    &.if.silver.rare {
-      background-image: url("../images/cards/20/silver_if.png");
-      color: #cdd9e1;
+    &.gold {
+      &.non-rare {
+        background-image: url("../images/cards/20/gold_non_rare.png");
+        color: #4d331f;
 
-      .playercard-name {
-        color: #b0bcc8;
+        .playercard-line {
+          border-color: #574A2B;
+        }
+
+        &.playercard-small {
+          background-image: url("../images/cards/20/small/gold_non_rare.png");
+        }
       }
 
-      .playercard-line {
-        border-color: #8D96A0;
-      }
+      &.rare {
+        background-image: url("../images/cards/20/gold.png");
+        color: #4d331f;
 
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/silver_if.png");
+        .playercard-line {
+          border-color: #645215;
+        }
+
+        &.playercard-small {
+          background-image: url("../images/cards/20/small/gold.png");
+        }
+
+        &.icon {
+          background-image: url("../images/cards/20/icon.png");
+          color: #625217;
+
+          .playercard-line {
+            border-color: #aa9e6f;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/icon.png");
+          }
+        }
+
+        &.if {
+          background-image: url("../images/cards/20/gold_if.png");
+          color: #e1c775;
+
+          .playercard-name {
+            color: #fce398;
+          }
+
+          .playercard-line {
+            border-color: #B19B58;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/gold_if.png");
+          }
+        }
+
+        &.otw {
+          background-image: url("../images/cards/20/otw.png");
+          color: #FC5461;
+
+          .playercard-name {
+            color: #ea598d;
+          }
+
+          .playercard-line {
+            border-color: #FAFA20;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/otw.png");
+          }
+        }
+
+        &.sbc_premium {
+          background-image: url("../images/cards/20/sbc_premium.png");
+          color: #00FCFF;
+
+          .playercard-line {
+            border-color: #F000FF;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/sbc_premium.png");
+          }
+        }
+
+        &.sbc_flashback {
+          background-image: url("../images/cards/20/sbc_flashback.png");
+          color: #EBFFB0;
+
+          .playercard-line {
+            border-color: #14F6F3;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/sbc_flashback.png");
+          }
+        }
+
+        &.potm_epl {
+          background-image: url("../images/cards/20/potm_epl.png");
+          color: #05F1FF;
+
+          .playercard-line {
+            border-color: #FF2882;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/potm_epl.png");
+          }
+        }
+
+        &.potm_bundesliga {
+          background-image: url("../images/cards/20/potm_bundesliga.png");
+          color: #F5F5F5;
+
+          .playercard-line {
+            border-color: #B6757A;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/potm_bundesliga.png");
+          }
+        }
+
+        &.potm_mls {
+          background-image: url("../images/cards/20/potm_mls.png");
+          color: #ffffff;
+
+          .playercard-line {
+            border-color: #0066A6;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/potm_mls.png");
+          }
+        }
+
+        &.potm_ligue1 {
+          background-image: url("../images/cards/20/potm_ligue1.png");
+          color: #DBE120;
+
+          .playercard-line {
+            border-color: #E2001A;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/potm_ligue1.png");
+          }
+        }
+
+        &.halloween {
+          background-image: url("../images/cards/20/halloween.png");
+          color: #FF690D;
+
+          .playercard-line {
+            border-color: #A74F14;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/halloween.png");
+          }
+        }
       }
     }
-
-    &.if.bronze.rare {
-      background-image: url("../images/cards/20/bronze_if.png");
-      color: #ca945f;
-
-      .playercard-name {
-        color: #e2a487;
-      }
-
-      .playercard-line {
-        border-color: #967552;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/bronze_if.png");
-      }
-    }
-
-    &.otw.gold.rare {
-      background-image: url("../images/cards/20/otw.png");
-      color: #FC5461;
-
-      .playercard-name {
-        color: #ea598d;
-      }
-
-      .playercard-line {
-        border-color: #FAFA20;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/otw.png");
-      }
-    }
-
-    &.sbc_premium.gold.rare {
-      background-image: url("../images/cards/20/sbc_premium.png");
-      color: #00FCFF;
-
-      .playercard-line {
-        border-color: #F000FF;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/sbc_premium.png");
-      }
-    }
-
-    &.sbc_flashback.gold.rare {
-      background-image: url("../images/cards/20/sbc_flashback.png");
-      color: #EBFFB0;
-
-      .playercard-line {
-        border-color: #14F6F3;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/sbc_flashback.png");
-      }
-    }
-
-    &.potm_epl.gold.rare {
-      background-image: url("../images/cards/20/potm_epl.png");
-      color: #05F1FF;
-
-      .playercard-line {
-        border-color: #FF2882;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/potm_epl.png");
-      }
-    }
-
-    &.potm_bundesliga.gold.rare {
-      background-image: url("../images/cards/20/potm_bundesliga.png");
-      color: #F5F5F5;
-
-      .playercard-line {
-        border-color: #B6757A;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/potm_bundesliga.png");
-      }
-    }
-
-    &.potm_mls.gold.rare {
-      background-image: url("../images/cards/20/potm_mls.png");
-      color: #ffffff;
-
-      .playercard-line {
-        border-color: #0066A6;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/potm_mls.png");
-      }
-    }
-
-    &.potm_ligue1.gold.rare {
-      background-image: url("../images/cards/20/potm_ligue1.png");
-      color: #DBE120;
-
-      .playercard-line {
-        border-color: #E2001A;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/potm_ligue1.png");
-      }
-    }
-
-    &.halloween.gold.rare {
-      background-image: url("../images/cards/20/halloween.png");
-      color: #FF690D;
-
-      .playercard-line {
-        border-color: #A74F14;
-      }
-
-      &.playercard-small {
-        background-image: url("../images/cards/20/small/halloween.png");
-      }
-    }
-
   }
 }
