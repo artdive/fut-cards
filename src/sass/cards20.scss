@@ -557,6 +557,32 @@
             background-image: url("../images/cards/20/small/sbc.png");
           }
         }
+
+        &.ucl_rare {
+          background-image: url("../images/cards/20/ucl_rare.png");
+          color: #F5F5F5;
+
+          .playercard-line {
+            border-color: #5AF7DC;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/ucl_rare.png");
+          }
+        }
+
+        &.ucl_non_rare {
+          background-image: url("../images/cards/20/ucl_non_rare.png");
+          color: #F5F5F5;
+
+          .playercard-line {
+            border-color: #5AF7DC;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/ucl_non_rare.png");
+          }
+        }
       }
     }
   }

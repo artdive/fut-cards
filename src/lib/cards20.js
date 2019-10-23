@@ -74,6 +74,14 @@ const cards = {
     sbc: {
         title: 'SBC',
         class: 'sbc gold rare'
+    },
+    ucl_rare: {
+        title: 'UCL Rare',
+        class: 'ucl_rare gold rare'
+    },
+    ucl_non_rare: {
+        title: 'UCL Non Rare',
+        class: 'ucl_non_rare gold rare'
     }
 };
 
