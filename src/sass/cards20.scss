@@ -544,6 +544,19 @@
             background-image: url("../images/cards/20/small/halloween.png");
           }
         }
+
+        &.sbc {
+          background-image: url("../images/cards/20/sbc.png");
+          color: #00FCFF;
+
+          .playercard-line {
+            border-color: #F000FF;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/sbc.png");
+          }
+        }
       }
     }
   }

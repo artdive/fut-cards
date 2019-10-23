@@ -70,6 +70,10 @@ const cards = {
     halloween: {
         title: 'Halloween',
         class: 'halloween gold rare'
+    },
+    sbc: {
+        title: 'SBC',
+        class: 'sbc gold rare'
     }
 };
 
