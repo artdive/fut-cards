@@ -28,18 +28,18 @@
     export default {
         props: {
             fifa: {
-                type: String,
+                type: [String, Number],
                 required: true
             },
             version: {
-                type: String
+                type: [String, Number]
             },
             size: {
                 type: String,
                 default: 'large'
             },
             rating: {
-                type: String,
+                type: [String, Number],
                 default: '??'
             },
             position: {
@@ -64,8 +64,7 @@
                 default: false
             },
             attrs: {
-                type: Array,
-                default: ['??', '??', '??', '??', '??', '??']
+                type: Array
             },
             workrates: {
                 type: String
