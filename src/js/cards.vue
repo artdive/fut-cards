@@ -9,12 +9,12 @@
         <div class="playercard-nation"><img :src="nation" alt=""></div>
         <div class="playercard-club"><img :src="club" alt=""></div>
         <div class="playercard-picture" :class="{'playercard-picture-special': pictureSpecial}"><img :src="picture" alt=""></div>
-        <div class="playercard-attr playercard-attr1">{{ attrs[0] }}<span>PAC</span></div>
-        <div class="playercard-attr playercard-attr2">{{ attrs[1] }}<span>SHO</span></div>
-        <div class="playercard-attr playercard-attr3">{{ attrs[2] }}<span>PAS</span></div>
-        <div class="playercard-attr playercard-attr4">{{ attrs[3] }}<span>DRI</span></div>
-        <div class="playercard-attr playercard-attr5">{{ attrs[4] }}<span>DEF</span></div>
-        <div class="playercard-attr playercard-attr6">{{ attrs[5] }}<span>PHY</span></div>
+        <div class="playercard-attr playercard-attr1" v-if="attrs">{{ attrs[0] }}<span>PAC</span></div>
+        <div class="playercard-attr playercard-attr2" v-if="attrs">{{ attrs[1] }}<span>SHO</span></div>
+        <div class="playercard-attr playercard-attr3" v-if="attrs">{{ attrs[2] }}<span>PAS</span></div>
+        <div class="playercard-attr playercard-attr4" v-if="attrs">{{ attrs[3] }}<span>DRI</span></div>
+        <div class="playercard-attr playercard-attr5" v-if="attrs">{{ attrs[4] }}<span>DEF</span></div>
+        <div class="playercard-attr playercard-attr6" v-if="attrs">{{ attrs[5] }}<span>PHY</span></div>
         <div class="playercard-workrates" v-if="workrates">{{ workrates }}</div>
         <div class="playercard-line playercard-line1"></div>
         <div class="playercard-line playercard-line2"></div>
