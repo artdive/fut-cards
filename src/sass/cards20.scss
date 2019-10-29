@@ -583,6 +583,58 @@
             background-image: url("../images/cards/20/small/ucl_non_rare.png");
           }
         }
+
+        &.ucl_sbc {
+          background-image: url("../images/cards/20/ucl_sbc.png");
+          color: #F5F5F5;
+
+          .playercard-line {
+            border-color: #FF00FF;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/ucl_sbc.png");
+          }
+        }
+
+        &.ucl_tott {
+          background-image: url("../images/cards/20/ucl_tott.png");
+          color: #F5F5F5;
+
+          .playercard-line {
+            border-color: #C6C9E2;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/ucl_tott.png");
+          }
+        }
+
+        &.ucl_motm {
+          background-image: url("../images/cards/20/ucl_motm.png");
+          color: #F5F5F5;
+
+          .playercard-line {
+            border-color: #C6C9E2;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/ucl_motm.png");
+          }
+        }
+
+        &.ucl_live {
+          background-image: url("../images/cards/20/ucl_live.png");
+          color: #F5F5F5;
+
+          .playercard-line {
+            border-color: #C6C9E2;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/ucl_live.png");
+          }
+        }
       }
     }
   }

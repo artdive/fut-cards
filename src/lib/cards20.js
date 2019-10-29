@@ -1,4 +1,4 @@
-const cards = {
+const cards20 = {
     icon: {
         title: 'Icon',
         class: 'icon gold rare'
@@ -82,7 +82,27 @@ const cards = {
     ucl_non_rare: {
         title: 'UCL Non Rare',
         class: 'ucl_non_rare gold rare'
+    },
+    ucl_sbc: {
+        title: 'UCL SBC',
+        class: 'ucl_sbc gold rare'
+    },
+    ucl_tott: {
+        title: 'UCL TOTT',
+        class: 'ucl_tott gold rare'
+    },
+    ucl_motm: {
+        title: 'UCL MOTM',
+        class: 'ucl_motm gold rare'
+    },
+    ucl_live: {
+        title: 'UCL Live',
+        class: 'ucl_live gold rare'
     }
 };
 
-export default cards;
+function getQualityName(value) {
+    return cards20[value].title;
+}
+
+export default cards20;
