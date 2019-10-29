@@ -101,8 +101,9 @@ const cards20 = {
     }
 };
 
-function getQualityName(value) {
-    return cards20[value].title;
+export function getQualityName(value) {
+    let key = Object.keys(cards20).find(key => cards20[key].class === value);
+    return cards20[key].title;
 }
 
 export default cards20;
