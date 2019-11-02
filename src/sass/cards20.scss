@@ -635,6 +635,19 @@
             background-image: url("../images/cards/20/small/ucl_live.png");
           }
         }
+
+        &.objective_reward {
+          background-image: url("../images/cards/20/objective_reward.png");
+          color: #fafa20;
+
+          .playercard-line {
+            border-color: #fc5461;
+          }
+
+          &.playercard-small {
+            background-image: url("../images/cards/20/small/objective_reward.png");
+          }
+        }
       }
     }
   }

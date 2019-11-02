@@ -98,6 +98,10 @@ const cards20 = {
     ucl_live: {
         title: 'UCL Live',
         class: 'ucl_live gold rare'
+    },
+    objective_reward: {
+        title: 'Season Reward',
+        class: 'objective_reward gold rare'
     }
 };
 
