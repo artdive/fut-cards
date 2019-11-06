@@ -3,12 +3,12 @@
             class="playercard"
             :class="['fut' + fifa, version, 'playercard-' + size]"
     >
-        <div class="playercard-rating">{{ rating }}</div>
-        <div class="playercard-name">{{ name }}</div>
-        <div class="playercard-position">{{ position }}</div>
-        <div class="playercard-nation"><img :src="nation" alt=""></div>
-        <div class="playercard-club"><img :src="club" alt=""></div>
-        <div class="playercard-picture" :class="{'playercard-picture-special': pictureSpecial}"><img :src="picture" alt=""></div>
+        <div class="playercard-rating" v-if="rating">{{ rating }}</div>
+        <div class="playercard-name" v-if="name">{{ name }}</div>
+        <div class="playercard-position" v-if="position">{{ position }}</div>
+        <div class="playercard-nation" v-if="nation"><img :src="nation" alt=""></div>
+        <div class="playercard-club" v-if="club"><img :src="club" alt=""></div>
+        <div class="playercard-picture" :class="{'playercard-picture-special': pictureSpecial}" v-if="picture"><img :src="picture" alt=""></div>
         <div class="playercard-attr playercard-attr1" v-if="attrs">{{ attrs[0] }}<span>PAC</span></div>
         <div class="playercard-attr playercard-attr2" v-if="attrs">{{ attrs[1] }}<span>SHO</span></div>
         <div class="playercard-attr playercard-attr3" v-if="attrs">{{ attrs[2] }}<span>PAS</span></div>
@@ -39,16 +39,13 @@
                 default: 'large'
             },
             rating: {
-                type: [String, Number],
-                default: '??'
+                type: [String, Number]
             },
             position: {
-                type: String,
-                default: '??'
+                type: String
             },
             name: {
-                type: String,
-                default: '???'
+                type: String
             },
             nation: {
                 type: String
@@ -68,7 +65,7 @@
             },
             workrates: {
                 type: String
-            },
+            }
         }
     }
 </script>

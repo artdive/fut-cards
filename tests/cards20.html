@@ -46,6 +46,16 @@
             <fut-card
                     fifa="20"
                     :version="card.class"
+                    size="xsmall"
+            ></fut-card>
+        </div>
+    </div>
+
+    <div>
+        <div v-for="(card, key) in cards20" style="display: inline-flex">
+            <fut-card
+                    fifa="20"
+                    :version="card.class"
                     rating="90"
                     position="GK"
                     name="Ter Stegen"

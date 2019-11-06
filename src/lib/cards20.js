@@ -100,7 +100,7 @@ const cards20 = {
         class: 'ucl_live gold rare'
     },
     objective_reward: {
-        title: 'Season Reward',
+        title: 'Objective Reward',
         class: 'objective_reward gold rare'
     }
 };
