@@ -106,6 +106,34 @@ const cards20 = {
     purple: {
         title: 'Hero',
         class: 'purple gold rare'
+    },
+    'award-winner': {
+        title: 'Award Winner',
+        class: 'award-winner gold rare'
+    },
+    bluered: {
+        title: 'Record Breaker',
+        class: 'bluered gold rare'
+    },
+    pro: {
+        title: 'Pro',
+        class: 'pro gold rare'
+    },
+    icon_swap_1: {
+        title: 'Icon Swap I',
+        class: 'icon_swap_1 gold rare'
+    },
+    champion_gold: {
+        title: 'FUT Champions Gold',
+        class: 'fut-champ gold rare'
+    },
+    champion_silver: {
+        title: 'FUT Champions Silver',
+        class: 'fut-champ silver rare'
+    },
+    champion_bronze: {
+        title: 'FUT Champions Bronze',
+        class: 'fut-champ bronze rare'
     }
 };
 

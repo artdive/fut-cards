@@ -150,10 +150,10 @@
         }
 
         &-workrates {
-          top: 252px;
-          font-size: 16px;
-          left: 14px;
-          width: 160px;
+          top: 260px;
+          font-size: 12px;
+          left: 0;
+          width: 100%;
           text-align: center;
           text-transform: uppercase;
         }
@@ -302,17 +302,10 @@
 
       .playercard {
         &-rating {
-          top: 3px;
-          font-size: 9px;
-          font-weight: 700;
+          top: 6px;
+          font-size: 11px;
+          font-weight: 500;
           z-index: 2;
-        }
-
-        &-position {
-          top: 11px;
-          font-size: 8px;
-          font-weight: 700;
-          z-index: 3;
         }
 
         &-line {
@@ -365,6 +358,19 @@
             background-image: url("../images/cards/20/small/bronze_if.png");
           }
         }
+
+        &.fut-champ {
+          background-image: url("../images/cards/20/champion_bronze.png");
+          color: #DEB376;
+
+          .playercard-line {
+            border-color: #896E46;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/champion_bronze.png");
+          }
+        }
       }
     }
 
@@ -408,6 +414,19 @@
 
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/silver_if.png");
+          }
+        }
+
+        &.fut-champ {
+          background-image: url("../images/cards/20/champion_silver.png");
+          color: #F2F2F3;
+
+          .playercard-line {
+            border-color: #A0A0A0;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/champion_silver.png");
           }
         }
       }
@@ -691,6 +710,75 @@
 
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/purple.png");
+          }
+        }
+
+        &.award-winner {
+          background-image: url("../images/cards/20/award-winner.png");
+          color: #C4FA4B;
+
+          .playercard-line {
+            border-color: #00F6FF;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/award-winner.png");
+          }
+        }
+
+        &.bluered {
+          background-image: url("../images/cards/20/bluered.png");
+          color: #FAFA20;
+
+          .playercard-line {
+            border-color: #FC5461;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/bluered.png");
+          }
+        }
+
+        &.pro {
+          background-image: url("../images/cards/20/pro.png");
+          color: #E6E6E6;
+
+          .playercard-line {
+            border-color: #7DFBEF;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/pro.png");
+          }
+        }
+
+        &.icon_swap_1 {
+          background-image: url("../images/cards/20/icon_swap_1.png");
+          color: #E3E2DE;
+
+          .playercard-line {
+            border-color: #4B4435;
+          }
+
+          .playercard-rating, .playercard-position {
+            color: #201C10;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/icon_swap_1.png");
+          }
+        }
+
+        &.fut-champ {
+          background-image: url("../images/cards/20/champion_gold.png");
+          color: #FFE28C;
+
+          .playercard-line {
+            border-color: #705F30;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/champion_gold.png");
           }
         }
       }
