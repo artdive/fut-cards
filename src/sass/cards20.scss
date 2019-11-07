@@ -680,6 +680,19 @@
             background-image: url("../images/cards/20/small/objective_reward.png");
           }
         }
+
+        &.purple {
+          background-image: url("../images/cards/20/purple.png");
+          color: #f9e500;
+
+          .playercard-line {
+            border-color: #ff357c;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/purple.png");
+          }
+        }
       }
     }
   }

@@ -102,6 +102,10 @@ const cards20 = {
     objective_reward: {
         title: 'Objective Reward',
         class: 'objective_reward gold rare'
+    },
+    purple: {
+        title: 'Hero',
+        class: 'purple gold rare'
     }
 };
 
