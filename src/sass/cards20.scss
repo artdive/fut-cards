@@ -676,10 +676,10 @@
 
         &.ucl_live {
           background-image: url("../images/cards/20/ucl_live.png");
-          color: #F5F5F5;
+          color: #88F3DD;
 
           .playercard-line {
-            border-color: #C6C9E2;
+            border-color: #EA41F7;
           }
 
           &.playercard-small, &.playercard-xsmall {
@@ -779,6 +779,19 @@
 
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/champion_gold.png");
+          }
+        }
+
+        &.europa_live {
+          background-image: url("../images/cards/20/europa_live.png");
+          color: #030303;
+
+          .playercard-line {
+            border-color: #030303;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/europa_live.png");
           }
         }
       }

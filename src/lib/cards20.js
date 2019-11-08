@@ -134,6 +134,10 @@ const cards20 = {
     champion_bronze: {
         title: 'FUT Champions Bronze',
         class: 'fut-champ bronze rare'
+    },
+    europa_live: {
+        title: 'UEL LIVE',
+        class: 'europa_live gold rare'
     }
 };
 
