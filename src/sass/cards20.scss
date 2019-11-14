@@ -794,6 +794,19 @@
             background-image: url("../images/cards/20/small/europa_live.png");
           }
         }
+
+        &.potm_laliga {
+          background-image: url("../images/cards/20/potm_laliga.png");
+          color: #90D9EB;
+
+          .playercard-line {
+            border-color: #D9DCBC;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/potm_laliga.png");
+          }
+        }
       }
     }
   }

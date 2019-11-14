@@ -138,6 +138,10 @@ const cards20 = {
     europa_live: {
         title: 'UEL LIVE',
         class: 'europa_live gold rare'
+    },
+    potm_laliga: {
+        title: 'La Liga POTM',
+        class: 'potm_laliga gold rare'
     }
 };
 
