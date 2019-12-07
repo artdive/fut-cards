@@ -648,32 +648,6 @@
           }
         }
 
-        &.ucl_tott {
-          background-image: url("../images/cards/20/ucl_tott.png");
-          color: #F5F5F5;
-
-          .playercard-line {
-            border-color: #C6C9E2;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/ucl_tott.png");
-          }
-        }
-
-        &.ucl_motm {
-          background-image: url("../images/cards/20/ucl_motm.png");
-          color: #F5F5F5;
-
-          .playercard-line {
-            border-color: #C6C9E2;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/ucl_motm.png");
-          }
-        }
-
         &.ucl_live {
           background-image: url("../images/cards/20/ucl_live.png");
           color: #88F3DD;
@@ -818,6 +792,45 @@
 
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/potm_laliga.png");
+          }
+        }
+
+        &.f_moment {
+          background-image: url("../images/cards/20/f_moment.png");
+          color: #FFD801;
+
+          .playercard-line {
+            border-color: #FFD801;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/f_moment.png");
+          }
+        }
+
+        &.ucl_tott {
+          background-image: url("../images/cards/20/ucl_tott.png");
+          color: #F5F5F5;
+
+          .playercard-line {
+            border-color: #C6C9E2;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/ucl_tott.png");
+          }
+        }
+
+        &.europa_tott {
+          background-image: url("../images/cards/20/europa_tott.png");
+          color: #F5F5F5;
+
+          .playercard-line {
+            border-color: #F39200;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/europa_tott.png");
           }
         }
       }

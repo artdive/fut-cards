@@ -1,110 +1,102 @@
 const cards20 = {
     icon: {
-        title: 'Icon',
+        title: 'Icon / Legend',
         class: 'icon gold rare'
     },
     gold: {
-        title: 'Gold Rare',
+        title: 'Rare Gold',
         class: 'gold rare'
     },
     gold_non_rare: {
-        title: 'Gold',
+        title: 'Non Rare Gold',
         class: 'gold non-rare'
     },
     silver: {
-        title: 'Silver Rare',
+        title: 'Rare Silver',
         class: 'silver rare'
     },
     silver_non_rare: {
-        title: 'Silver',
+        title: 'Non Rare Silver',
         class: 'silver non-rare'
     },
     bronze: {
-        title: 'Bronze Rare',
+        title: 'Rare Bronze',
         class: 'bronze rare'
     },
     bronze_non_rare: {
-        title: 'Bronze',
+        title: 'Non Rare Bronze',
         class: 'bronze non-rare'
     },
     gold_if: {
-        title: 'Gold IF',
+        title: 'Team of the Week Gold',
         class: 'if gold rare'
     },
     silver_if: {
-        title: 'Silver IF',
+        title: 'Team of the Week Silver',
         class: 'if silver rare'
     },
     bronze_if: {
-        title: 'Bronze IF',
+        title: 'Team of the Week Bronze',
         class: 'if bronze rare'
     },
     otw: {
-        title: 'Ones To Watch',
+        title: 'Ones to Watch',
         class: 'otw gold rare'
     },
     sbc_premium: {
-        title: 'Premium SBC',
+        title: 'Squad Builder Premium',
         class: 'sbc_premium gold rare'
     },
     sbc_flashback: {
-        title: 'Flashback',
+        title: 'Flashback SBC',
         class: 'sbc_flashback gold rare'
     },
     potm_epl: {
-        title: 'POTM EPL',
+        title: 'Premier League POTM',
         class: 'potm_epl gold rare'
     },
     potm_bundesliga: {
-        title: 'POTM Bundesliga',
+        title: 'Bundesliga POTM',
         class: 'potm_bundesliga gold rare'
     },
     potm_mls: {
-        title: 'POTM MLS',
+        title: 'MLS POTM',
         class: 'potm_mls gold rare'
     },
     potm_ligue1: {
-        title: 'POTM Ligue1',
+        title: 'Ligue 1 POTM',
         class: 'potm_ligue1 gold rare'
     },
     halloween: {
-        title: 'Halloween',
+        title: 'Ultimate Scream',
         class: 'halloween gold rare'
     },
     sbc: {
-        title: 'SBC',
+        title: 'Squad Builder Reward',
         class: 'sbc gold rare'
     },
     ucl_rare: {
-        title: 'UCL Rare',
+        title: 'Champions League Rare',
         class: 'ucl_rare gold rare'
     },
     ucl_non_rare: {
-        title: 'UCL Non Rare',
+        title: 'Champions League',
         class: 'ucl_non_rare gold rare'
     },
     ucl_sbc: {
-        title: 'UCL SBC',
+        title: 'Champions League SBC',
         class: 'ucl_sbc gold rare'
     },
-    ucl_tott: {
-        title: 'UCL TOTT',
-        class: 'ucl_tott gold rare'
-    },
-    ucl_motm: {
-        title: 'UCL MOTM',
-        class: 'ucl_motm gold rare'
-    },
     ucl_live: {
-        title: 'UCL Live',
+        title: 'Champions League Live',
         class: 'ucl_live gold rare'
     },
     objective_reward: {
-        title: 'Objective Reward',
+        title: 'Objectives Reward',
         class: 'objective_reward gold rare'
     },
     objective_reward_2: {
-        title: 'Objective Reward 2',
+        title: 'League Objective',
         class: 'objective_reward_2 gold rare'
     },
     purple: {
@@ -120,11 +112,11 @@ const cards20 = {
         class: 'bluered gold rare'
     },
     pro: {
-        title: 'Pro',
+        title: 'Pro Player',
         class: 'pro gold rare'
     },
     icon_swap_1: {
-        title: 'Icon Swap I',
+        title: 'Icon Swaps I',
         class: 'icon_swap_1 gold rare'
     },
     champion_gold: {
@@ -140,12 +132,24 @@ const cards20 = {
         class: 'fut-champ bronze rare'
     },
     europa_live: {
-        title: 'UEL LIVE',
+        title: 'Europa League SBC',
         class: 'europa_live gold rare'
     },
     potm_laliga: {
         title: 'La Liga POTM',
         class: 'potm_laliga gold rare'
+    },
+    f_moment: {
+        title: 'Player Moments',
+        class: 'f_moment gold rare'
+    },
+    ucl_tott: {
+        title: 'Champions League TOTT',
+        class: 'ucl_tott gold rare'
+    },
+    europa_tott: {
+        title: 'Europa League TOTT',
+        class: 'europa_tott gold rare'
     }
 };
 
