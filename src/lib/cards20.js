@@ -150,11 +150,19 @@ const cards20 = {
     europa_tott: {
         title: 'Europa League TOTT',
         class: 'europa_tott gold rare'
+    },
+    futmas: {
+        title: 'FUTmas',
+        class: 'futmas gold rare'
+    },
+    totyn: {
+        title: 'TOTY Nominees',
+        class: 'totyn gold rare'
     }
 };
 
-export function getQualityName(value) {
-    let key = Object.keys(cards20).find(key => cards20[key].class === value);
+export function qualityName(value) {
+    let key = Object.keys(cards20).find(key => cards20[key] === value);
     return cards20[key].title;
 }
 

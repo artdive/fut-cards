@@ -833,6 +833,32 @@
             background-image: url("../images/cards/20/small/europa_tott.png");
           }
         }
+
+        &.futmas {
+          background-image: url("../images/cards/20/futmas.png");
+          color: #ffffff;
+
+          .playercard-line {
+            border-color: #19c16e;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/futmas.png");
+          }
+        }
+
+        &.totyn {
+          background-image: url("../images/cards/20/totyn.png");
+          color: #efd668;
+
+          .playercard-line {
+            border-color: #efd668;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/totyn.png");
+          }
+        }
       }
     }
   }
