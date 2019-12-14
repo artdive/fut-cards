@@ -155,9 +155,9 @@ const cards20 = {
         title: 'FUTmas',
         class: 'futmas gold rare'
     },
-    totyn: {
+    toty_nominee: {
         title: 'TOTY Nominees',
-        class: 'totyn gold rare'
+        class: 'toty_nominee gold rare'
     }
 };
 
