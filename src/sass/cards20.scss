@@ -859,6 +859,19 @@
             background-image: url("../images/cards/20/small/toty_nominee.png");
           }
         }
+
+        &.toty {
+          background-image: url("../images/cards/20/toty.png");
+          color: #efd668;
+
+          .playercard-line {
+            border-color: #efd668;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/toty.png");
+          }
+        }
       }
     }
   }

@@ -158,6 +158,10 @@ const cards20 = {
     toty_nominee: {
         title: 'TOTY Nominees',
         class: 'toty_nominee gold rare'
+    },
+    toty: {
+        title: 'TOTY',
+        class: 'toty gold rare'
     }
 };
 
