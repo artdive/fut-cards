@@ -6,7 +6,7 @@
     font-family: 'fut-cards', sans-serif;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     z-index: 0;
     margin-left: auto;
     margin-right: auto;
@@ -19,26 +19,26 @@
     }
 
     &-large {
-      width: 204px;
-      height: 306px;
+      width: 206px;
+      height: 288px;
 
       .playercard {
         &-rating {
           font-weight: 500;
-          font-size: 39px;
-          left: 30px;
+          font-size: 36px;
+          left: 35px;
           text-align: center;
           width: 50px;
-          top: 41px;
+          top: 40px;
           letter-spacing: -1px;
           z-index: 1;
         }
 
         &-position {
-          font-size: 18px;
-          top: 75px;
+          font-size: 17px;
+          top: 71px;
           width: 50px;
-          left: 30px;
+          left: 35px;
           text-align: center;
           font-weight: 700;
           z-index: 1;
@@ -47,66 +47,68 @@
         &-name {
           left: 0;
           text-align: center;
-          top: 161px;
+          top: 152px;
           width: 100%;
           text-transform: uppercase;
           letter-spacing: -0.2px;
-          font-size: 23px;
+          font-size: 21px;
           z-index: 1;
           font-weight: 700;
           white-space: nowrap;
         }
 
         &-nation {
-          left: 30px;
-          top: 99px;
+          left: 35px;
+          top: 94px;
           width: 50px;
           text-align: center;
           line-height: 0;
           z-index: 1;
 
           & > img {
-            width: 30px;
+            width: 26px;
           }
         }
 
         &-club {
-          left: 30px;
-          top: 125px;
+          left: 35px;
+          top: 117px;
           width: 50px;
           text-align: center;
           line-height: 0;
           z-index: 1;
 
           & > img {
-            width: 28px;
+            width: 26px;
           }
         }
 
         &-picture {
           height: auto;
-          left: 63px;
-          top: 40px;
-          width: 119px;
+          left: 64px;
+          top: 34px;
+          width: 116px;
           line-height: 0;
 
           & > img {
-            width: 119px;
+            width: 100%;
           }
 
           &-special {
-            top: 32px;
-            left: 22px;
+            width: 156px;
+            top: 36px;
+            left: 23px;
             z-index: 0;
 
             & > img {
-              width: 159px;
+              width: 100%;
+              height: auto;
             }
           }
         }
 
         &-attr {
-          font-size: 18px;
+          font-size: 16px;
           text-align: left;
           width: 60px;
           font-weight: 700;
@@ -118,33 +120,33 @@
           }
 
           &1 {
-            left: 42px;
-            top: 191px;
+            left: 48px;
+            top: 181px;
           }
 
           &2 {
-            left: 42px;
-            top: 211px;
+            left: 48px;
+            top: 199px;
           }
 
           &3 {
-            left: 42px;
-            top: 231px;
+            left: 48px;
+            top: 217px;
           }
 
           &4 {
             left: 119px;
-            top: 191px;
+            top: 181px;
           }
 
           &5 {
             left: 119px;
-            top: 211px;
+            top: 199px;
           }
 
           &6 {
             left: 119px;
-            top: 231px;
+            top: 217px;
           }
 
         }
@@ -162,54 +164,54 @@
           border: 0 solid #000;
 
           &1 {
-            width: 18px;
+            width: 15px;
             border-bottom-width: 1px;
-            top: 95px;
-            left: 46px;
+            top: 90px;
+            left: 53px;
           }
 
           &2 {
-            width: 18px;
+            width: 15px;
             border-bottom-width: 1px;
-            top: 121px;
-            left: 46px;
+            top: 114px;
+            left: 53px;
           }
 
           &3 {
-            width: 118px;
+            width: 110px;
             border-bottom-width: 1px;
-            top: 186px;
+            top: 175px;
             left: 50%;
-            margin-left: -(118px / 2);
+            margin-left: -(110px / 2);
           }
 
           &4 {
-            height: 53px;
+            height: 49px;
             border-left-width: 1px;
-            top: 194px;
+            top: 183px;
             left: 50%;
           }
 
           &5 {
-            width: 26px;
+            width: 24px;
             border-bottom-width: 1px;
-            top: 254px;
+            top: 239px;
             left: 50%;
-            margin-left: -(26px / 2);
+            margin-left: -(24px / 2);
           }
         }
       }
     }
 
     &-small {
-      width: 90px;
-      height: 106px;
+      width: 100px;
+      height: 118px;
 
       .playercard {
         &-rating {
-          font-size: 14px;
-          left: 10px;
-          top: 22px;
+          font-size: 18px;
+          left: 13px;
+          top: 24px;
           width: 26px;
           text-align: center;
           font-weight: 700;
@@ -218,8 +220,8 @@
 
         &-position {
           font-size: 11px;
-          left: 10px;
-          top: 35px;
+          left: 13px;
+          top: 41px;
           width: 26px;
           text-align: center;
           font-weight: 500;
@@ -227,29 +229,29 @@
         }
 
         &-name {
-          font-size: 10px;
+          font-size: 11px;
           text-transform: uppercase;
           text-align: center;
-          top: 76px;
+          top: 86px;
           width: 100%;
           font-weight: 500;
           z-index: 3;
         }
 
         &-nation {
-          left: 16px;
-          top: 46px;
+          left: 19px;
+          top: 54px;
           z-index: 3;
           line-height: 0;
 
           & > img {
-            width: 15px;
+            width: 14px;
           }
         }
 
         &-club {
-          left: 16px;
-          top: 57px;
+          left: 19px;
+          top: 65px;
           z-index: 3;
           line-height: 0;
 
@@ -259,13 +261,13 @@
         }
 
         &-picture {
-          left: 28px;
-          top: 25px;
-          width: 50px;
+          left: 34px;
+          top: 29px;
+          width: 54px;
           line-height: 0;
 
           & > img {
-            width: 50px;
+            width: 100%;
           }
 
           &-special {
