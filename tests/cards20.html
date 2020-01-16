@@ -83,6 +83,23 @@
         </div>
     </div>
 
+    <div>
+        <div v-for="(card, key) in cards20" style="display: inline-flex">
+            <fut-card
+                    fifa="20"
+                    :version="card.class"
+                    size="small"
+                    rating="90"
+                    position="GK"
+                    name="Ter Stegen"
+                    nation="https://www.easports.com/fifa/ultimate-team/web-app/content/20C1B296-B15C-4F72-AF0F-882F187EC2C9/2020/fut/items/images/mobile/flags/list/52.png"
+                    club="https://www.easports.com/fifa/ultimate-team/web-app/content/20C1B296-B15C-4F72-AF0F-882F187EC2C9/2020/fut/items/images/mobile/clubs/normal/241.png"
+                    picture="https://www.easports.com/fifa/ultimate-team/web-app/content/20C1B296-B15C-4F72-AF0F-882F187EC2C9/2020/fut/playerheads/mobile/single/p100844587.png"
+                    :picture-special="true"
+            ></fut-card>
+        </div>
+    </div>
+
 </div>
 
 <script src="../dist/js/test.js"></script>

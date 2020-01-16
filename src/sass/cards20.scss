@@ -1,5 +1,11 @@
 @import "./fonts20.scss";
 
+@mixin overlay($color) {
+  .playercard-overlay {
+    background: linear-gradient(to bottom, rgba($color, 0) 0, rgba($color, 0.2) 10%, rgba($color, 0.65) 45%, rgba($color, 0.76) 58%, rgba($color, 0.8) 77%, rgba($color, 0.1) 100%);
+  }
+}
+
 .fut20 {
   &.playercard {
     position: relative;
@@ -26,7 +32,7 @@
         &-rating {
           font-weight: 500;
           font-size: 36px;
-          left: 35px;
+          left: 34px;
           text-align: center;
           width: 50px;
           top: 40px;
@@ -38,7 +44,7 @@
           font-size: 17px;
           top: 71px;
           width: 50px;
-          left: 35px;
+          left: 34px;
           text-align: center;
           font-weight: 700;
           z-index: 1;
@@ -58,7 +64,7 @@
         }
 
         &-nation {
-          left: 35px;
+          left: 34px;
           top: 94px;
           width: 50px;
           text-align: center;
@@ -71,7 +77,7 @@
         }
 
         &-club {
-          left: 35px;
+          left: 34px;
           top: 117px;
           width: 50px;
           text-align: center;
@@ -160,6 +166,15 @@
           text-transform: uppercase;
         }
 
+        &-overlay {
+          width: 36px;
+          height: 198px;
+          position: absolute;
+          top: 42px;
+          left: 41px;
+          z-index: 0;
+        }
+
         &-line {
           border: 0 solid #000;
 
@@ -167,14 +182,14 @@
             width: 15px;
             border-bottom-width: 1px;
             top: 90px;
-            left: 53px;
+            left: 52px;
           }
 
           &2 {
             width: 15px;
             border-bottom-width: 1px;
             top: 114px;
-            left: 53px;
+            left: 52px;
           }
 
           &3 {
@@ -271,10 +286,24 @@
           }
 
           &-special {
-            & > img {
+            left: 14px;
+            top: 20px;
+            width: 72px;
 
+            & > img {
+              width: 100%;
+              height: auto;
             }
           }
+        }
+
+        &-overlay {
+          width: 18px;
+          height: 70px;
+          position: absolute;
+          top: 26px;
+          left: 17px;
+          z-index: 0;
         }
 
         &-attr {
@@ -308,6 +337,10 @@
           font-size: 11px;
           font-weight: 500;
           z-index: 2;
+        }
+
+        &-overlay {
+          display: none;
         }
 
         &-line {
@@ -359,6 +392,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/bronze_if.png");
           }
+
+          @include overlay(#000);
         }
 
         &.fut-champ {
@@ -372,6 +407,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/champion_bronze.png");
           }
+
+          @include overlay(#4D0F0E);
         }
       }
     }
@@ -417,6 +454,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/silver_if.png");
           }
+
+          @include overlay(#000);
         }
 
         &.fut-champ {
@@ -430,6 +469,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/champion_silver.png");
           }
+
+          @include overlay(#4D0F0E);
         }
       }
     }
@@ -471,6 +512,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/icon.png");
           }
+
+          @include overlay(#fff);
         }
 
         &.if {
@@ -488,6 +531,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/gold_if.png");
           }
+
+          @include overlay(#000);
         }
 
         &.otw {
@@ -505,6 +550,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/otw.png");
           }
+
+          @include overlay(#000a2d);
         }
 
         &.sbc_premium {
@@ -518,6 +565,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/sbc_premium.png");
           }
+
+          @include overlay(#642289);
         }
 
         &.sbc_flashback {
@@ -531,6 +580,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/sbc_flashback.png");
           }
+
+          @include overlay(#2A7B77);
         }
 
         &.potm_epl {
@@ -544,6 +595,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/potm_epl.png");
           }
+
+          @include overlay(#37003C);
         }
 
         &.potm_bundesliga {
@@ -557,6 +610,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/potm_bundesliga.png");
           }
+
+          @include overlay(#86030D);
         }
 
         &.potm_mls {
@@ -570,6 +625,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/potm_mls.png");
           }
+
+          @include overlay(#002658);
         }
 
         &.potm_ligue1 {
@@ -583,6 +640,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/potm_ligue1.png");
           }
+
+          @include overlay(#11233F);
         }
 
         &.halloween {
@@ -596,6 +655,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/halloween.png");
           }
+
+          @include overlay(#050208);
         }
 
         &.sbc {
@@ -609,6 +670,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/sbc.png");
           }
+
+          @include overlay(#791496);
         }
 
         &.ucl_rare {
@@ -622,6 +685,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/ucl_rare.png");
           }
+
+          @include overlay(#050b7e);
         }
 
         &.ucl_non_rare {
@@ -635,6 +700,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/ucl_non_rare.png");
           }
+
+          @include overlay(#050b7e);
         }
 
         &.ucl_sbc {
@@ -648,6 +715,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/ucl_sbc.png");
           }
+
+          @include overlay(#19369A);
         }
 
         &.ucl_live {
@@ -661,6 +730,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/ucl_live.png");
           }
+
+          @include overlay(#000324);
         }
 
         &.objective_reward {
@@ -674,6 +745,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/objective_reward.png");
           }
+
+          @include overlay(#121620);
         }
 
         &.objective_reward_2 {
@@ -687,6 +760,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/objective_reward_2.png");
           }
+
+          @include overlay(#121620);
         }
 
         &.purple {
@@ -700,6 +775,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/purple.png");
           }
+
+          @include overlay(#241A44);
         }
 
         &.award-winner {
@@ -713,6 +790,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/award-winner.png");
           }
+
+          @include overlay(#380062);
         }
 
         &.bluered {
@@ -726,6 +805,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/bluered.png");
           }
+
+          @include overlay(#C62B2F);
         }
 
         &.pro {
@@ -739,6 +820,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/pro.png");
           }
+
+          @include overlay(#2CA496);
         }
 
         &.icon_swap_1 {
@@ -758,6 +841,19 @@
           }
         }
 
+        &.icon_swap_2 {
+          background-image: url("../images/cards/20/icon_swap_2.png");
+          color: #4b4435;
+
+          .playercard-line {
+            border-color: #4b4435;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/icon_swap_2.png");
+          }
+        }
+
         &.fut-champ {
           background-image: url("../images/cards/20/champion_gold.png");
           color: #FFE28C;
@@ -769,6 +865,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/champion_gold.png");
           }
+
+          @include overlay(#4D0F0E);
         }
 
         &.europa_live {
@@ -782,6 +880,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/europa_live.png");
           }
+
+          @include overlay(#FFBA01);
         }
 
         &.potm_laliga {
@@ -795,6 +895,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/potm_laliga.png");
           }
+
+          @include overlay(#0C1B21);
         }
 
         &.f_moment {
@@ -808,6 +910,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/f_moment.png");
           }
+
+          @include overlay(#154550);
         }
 
         &.ucl_tott {
@@ -834,6 +938,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/europa_tott.png");
           }
+
+          @include overlay(#000);
         }
 
         &.futmas {
@@ -847,6 +953,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/futmas.png");
           }
+
+          @include overlay(#640c10);
         }
 
         &.toty_nominee {
@@ -873,6 +981,8 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/toty.png");
           }
+
+          @include overlay(#00033E);
         }
       }
     }

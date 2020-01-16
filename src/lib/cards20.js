@@ -119,6 +119,10 @@ const cards20 = {
         title: 'Icon Swaps I',
         class: 'icon_swap_1 gold rare'
     },
+    icon_swap_2: {
+        title: 'Icon Swaps II',
+        class: 'icon_swap_2 gold rare'
+    },
     champion_gold: {
         title: 'FUT Champions Gold',
         class: 'fut-champ gold rare'

@@ -3,6 +3,7 @@
             class="playercard"
             :class="['fut' + fifa, version, 'playercard-' + size]"
     >
+        <div class="playercard-overlay"></div>
         <div class="playercard-rating" v-if="rating">{{ rating }}</div>
         <div class="playercard-name" v-if="name">{{ name }}</div>
         <div class="playercard-position" v-if="position">{{ position }}</div>
