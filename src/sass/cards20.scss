@@ -984,6 +984,21 @@
 
           @include overlay(#00033E);
         }
+
+        &.headliners {
+          background-image: url("../images/cards/20/headliners.png");
+          color: #fff;
+
+          .playercard-line {
+            border-color: #FFCE0B;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/headliners.png");
+          }
+
+          @include overlay(#9B0F2D);
+        }
       }
     }
   }
