@@ -170,6 +170,14 @@ const cards20 = {
     headliners: {
         title: 'Headliners',
         class: 'headliners gold rare'
+    },
+    future_stars: {
+        title: 'Future Stars',
+        class: 'future_stars gold rare'
+    },
+    future_stars_2: {
+        title: 'Future Stars Upgrade',
+        class: 'future_stars_2 gold rare'
     }
 };
 

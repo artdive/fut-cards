@@ -6,6 +6,18 @@
   }
 }
 
+@mixin champions() {
+  font-family: 'fut-cards-champions', sans-serif;
+  & > * {
+    font-weight: 400;
+  }
+  .playercard-attr {
+    & > span {
+      margin-left: 4px;
+    }
+  }
+}
+
 .fut20 {
   &.playercard {
     position: relative;
@@ -60,7 +72,9 @@
           font-size: 21px;
           z-index: 1;
           font-weight: 700;
+          text-overflow: ellipsis;
           white-space: nowrap;
+          overflow: hidden;
         }
 
         &-nation {
@@ -251,6 +265,9 @@
           width: 100%;
           font-weight: 500;
           z-index: 3;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
         }
 
         &-nation {
@@ -687,6 +704,7 @@
           }
 
           @include overlay(#050b7e);
+          @include champions();
         }
 
         &.ucl_non_rare {
@@ -702,6 +720,7 @@
           }
 
           @include overlay(#050b7e);
+          @include champions();
         }
 
         &.ucl_sbc {
@@ -717,6 +736,7 @@
           }
 
           @include overlay(#19369A);
+          @include champions();
         }
 
         &.ucl_live {
@@ -732,6 +752,7 @@
           }
 
           @include overlay(#000324);
+          @include champions();
         }
 
         &.objective_reward {
@@ -925,6 +946,9 @@
           &.playercard-small, &.playercard-xsmall {
             background-image: url("../images/cards/20/small/ucl_tott.png");
           }
+
+          @include overlay(#000a7b);
+          @include champions();
         }
 
         &.europa_tott {
@@ -998,6 +1022,36 @@
           }
 
           @include overlay(#9B0F2D);
+        }
+
+        &.future_stars {
+          background-image: url("../images/cards/20/future_stars.png");
+          color: #fafa20;
+
+          .playercard-line {
+            border-color: #9d00b2;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/future_stars.png");
+          }
+
+          @include overlay(#F100C4);
+        }
+
+        &.future_stars_2 {
+          background-image: url("../images/cards/20/future_stars_2.png");
+          color: #fafa20;
+
+          .playercard-line {
+            border-color: #9d00b2;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/future_stars_2.png");
+          }
+
+          @include overlay(#F100C4);
         }
       }
     }
