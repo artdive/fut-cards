@@ -63,10 +63,10 @@
         }
 
         &-name {
-          left: 0;
           text-align: center;
           top: 152px;
-          width: 100%;
+          left: 28px;
+          right: 28px;
           text-transform: uppercase;
           letter-spacing: -0.2px;
           font-size: 21px;
@@ -262,7 +262,8 @@
           text-transform: uppercase;
           text-align: center;
           top: 86px;
-          width: 100%;
+          left: 14px;
+          right: 14px;
           font-weight: 500;
           z-index: 3;
           text-overflow: ellipsis;
@@ -1052,6 +1053,21 @@
           }
 
           @include overlay(#F100C4);
+        }
+
+        &.motm {
+          background-image: url("../images/cards/20/motm.png");
+          color: #e6e6e6;
+
+          .playercard-line {
+            border-color: #fcbd67;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/motm.png");
+          }
+
+          @include overlay(#d96920);
         }
       }
     }

@@ -178,6 +178,10 @@ const cards20 = {
     future_stars_2: {
         title: 'Future Stars Upgrade',
         class: 'future_stars_2 gold rare'
+    },
+    motm: {
+        title: 'Man of the Match',
+        class: 'motm gold rare'
     }
 };
 
