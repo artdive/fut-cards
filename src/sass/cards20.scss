@@ -534,6 +534,21 @@
           @include overlay(#fff);
         }
 
+        &.icon_moment {
+          background-image: url("../images/cards/20/icon_moment.png");
+          color: #625217;
+
+          .playercard-line {
+            border-color: #aa9e6f;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/icon_moment.png");
+          }
+
+          @include overlay(#fff);
+        }
+
         &.if {
           background-image: url("../images/cards/20/gold_if.png");
           color: #e1c775;
@@ -1025,6 +1040,21 @@
           @include overlay(#9B0F2D);
         }
 
+        &.headliners_2 {
+          background-image: url("../images/cards/20/headliners_2.png");
+          color: #fff;
+
+          .playercard-line {
+            border-color: #FFCE0B;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/headliners_2.png");
+          }
+
+          @include overlay(#9B0F2D);
+        }
+
         &.future_stars {
           background-image: url("../images/cards/20/future_stars.png");
           color: #fafa20;
@@ -1068,6 +1098,21 @@
           }
 
           @include overlay(#d96920);
+        }
+
+        &.winter_refresh {
+          background-image: url("../images/cards/20/winter_refresh.png");
+          color: #42FF94;
+
+          .playercard-line {
+            border-color: #83c1ec;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/winter_refresh.png");
+          }
+
+          @include overlay(#0283C6);
         }
       }
     }

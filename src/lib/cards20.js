@@ -3,6 +3,10 @@ const cards20 = {
         title: 'Icon / Legend',
         class: 'icon gold rare'
     },
+    icon_moment: {
+        title: 'Prime Icon Moments',
+        class: 'icon_moment gold rare'
+    },
     gold: {
         title: 'Rare Gold',
         class: 'gold rare'
@@ -171,6 +175,10 @@ const cards20 = {
         title: 'Headliners',
         class: 'headliners gold rare'
     },
+    headliners_2: {
+        title: 'Headliners Streak',
+        class: 'headliners_2 gold rare'
+    },
     future_stars: {
         title: 'Future Stars',
         class: 'future_stars gold rare'
@@ -182,6 +190,10 @@ const cards20 = {
     motm: {
         title: 'Man of the Match',
         class: 'motm gold rare'
+    },
+    winter_refresh: {
+        title: 'Winter Refresh',
+        class: 'winter_refresh gold rare'
     }
 };
 
