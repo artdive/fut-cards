@@ -1114,6 +1114,21 @@
 
           @include overlay(#0283C6);
         }
+
+        &.shapeshifter {
+          background-image: url("../images/cards/20/shapeshifter.png");
+          color: #F91B4C;
+
+          .playercard-line {
+            border-color: #9DFFC6;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/shapeshifter.png");
+          }
+
+          @include overlay(#123C3D);
+        }
       }
     }
   }

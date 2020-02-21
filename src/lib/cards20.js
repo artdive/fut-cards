@@ -194,6 +194,10 @@ const cards20 = {
     winter_refresh: {
         title: 'Winter Refresh',
         class: 'winter_refresh gold rare'
+    },
+    shapeshifter: {
+        title: 'Shapeshifters',
+        class: 'shapeshifter gold rare'
     }
 };
 
