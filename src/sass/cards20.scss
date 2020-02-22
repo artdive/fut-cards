@@ -1117,7 +1117,7 @@
 
         &.shapeshifter {
           background-image: url("../images/cards/20/shapeshifter.png");
-          color: #F91B4C;
+          color: #fff;
 
           .playercard-line {
             border-color: #9DFFC6;
@@ -1128,6 +1128,23 @@
           }
 
           @include overlay(#123C3D);
+        }
+
+        &.europa_motm {
+          background-image: url("../images/cards/20/europa_motm.png");
+          color: #F5F5F5;
+
+          .playercard-name, .playercard-attr {
+            color: #2A1F10;
+          }
+
+          .playercard-line {
+            border-color: #D5D5D5;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/europa_motm.png");
+          }
         }
       }
     }

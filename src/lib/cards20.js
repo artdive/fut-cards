@@ -198,6 +198,10 @@ const cards20 = {
     shapeshifter: {
         title: 'Shapeshifters',
         class: 'shapeshifter gold rare'
+    },
+    europa_motm: {
+        title: 'Europa League MOTM',
+        class: 'europa_motm gold rare'
     }
 };
 
