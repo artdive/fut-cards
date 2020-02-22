@@ -202,6 +202,10 @@ const cards20 = {
     europa_motm: {
         title: 'Europa League MOTM',
         class: 'europa_motm gold rare'
+    },
+    ucl_motm: {
+        title: 'Champions League MOTM',
+        class: 'ucl_motm gold rare'
     }
 };
 
