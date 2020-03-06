@@ -206,6 +206,18 @@ const cards20 = {
     ucl_motm: {
         title: 'Champions League MOTM',
         class: 'ucl_motm gold rare'
+    },
+    libertadores_b: {
+        title: 'Libertadores',
+        class: 'libertadores_b gold rare'
+    },
+    libertadores_g: {
+        title: 'Libertadores Gold',
+        class: 'libertadores_g gold rare'
+    },
+    sudamericana: {
+        title: 'Sudamericana',
+        class: 'sudamericana gold rare'
     }
 };
 

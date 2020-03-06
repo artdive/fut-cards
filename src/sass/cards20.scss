@@ -1162,6 +1162,51 @@
           @include overlay(#0c2080);
           @include champions();
         }
+
+        &.libertadores_b {
+          background-image: url("../images/cards/20/libertadores_b.png");
+          color: #D8D8D8;
+
+          .playercard-line {
+            border-color: #D0A168;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/libertadores_b.png");
+          }
+
+          @include overlay(#242424);
+        }
+
+        &.libertadores_g {
+          background-image: url("../images/cards/20/libertadores_g.png");
+          color: #E4E4E4;
+
+          .playercard-line {
+            border-color: #A88041;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/libertadores_g.png");
+          }
+
+          @include overlay(#2B1E0B);
+        }
+
+        &.sudamericana {
+          background-image: url("../images/cards/20/sudamericana.png");
+          color: #D8D8D8;
+
+          .playercard-line {
+            border-color: #5E5E5E;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/sudamericana.png");
+          }
+
+          @include overlay(#242424);
+        }
       }
     }
   }
