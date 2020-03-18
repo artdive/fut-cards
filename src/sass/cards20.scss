@@ -1207,6 +1207,21 @@
 
           @include overlay(#242424);
         }
+
+        &.b_moments {
+          background-image: url("../images/cards/20/b_moments.png");
+          color: #EEDC82;
+
+          .playercard-line {
+            border-color: #705F30;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/b_moments.png");
+          }
+
+          @include overlay(#191919);
+        }
       }
     }
   }

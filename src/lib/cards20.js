@@ -218,6 +218,10 @@ const cards20 = {
     sudamericana: {
         title: 'Sudamericana',
         class: 'sudamericana gold rare'
+    },
+    b_moments: {
+        title: 'TOTW Moments',
+        class: 'b_moments gold rare'
     }
 };
 
