@@ -212,7 +212,7 @@ const cards20 = {
         class: 'libertadores_b gold rare'
     },
     libertadores_g: {
-        title: 'Libertadores Gold',
+        title: 'Libertadores Kickoff',
         class: 'libertadores_g gold rare'
     },
     sudamericana: {
@@ -222,6 +222,10 @@ const cards20 = {
     b_moments: {
         title: 'TOTW Moments',
         class: 'b_moments gold rare'
+    },
+    conmebol_motm: {
+        title: 'Libertadores MOTM',
+        class: 'conmebol_motm gold rare'
     }
 };
 
