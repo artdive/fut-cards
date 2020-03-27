@@ -490,6 +490,23 @@
 
           @include overlay(#4D0F0E);
         }
+
+        &.conmebol_motm {
+          background-image: url("../images/cards/20/conmebol_motm.png");
+          color: #242424;
+
+          .playercard-line {
+            border-color: #cf9f66;
+          }
+
+          .playercard-rating, .playercard-position {
+            color: #cfa066;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/conmebol_motm.png");
+          }
+        }
       }
     }
 
@@ -1223,21 +1240,23 @@
           @include overlay(#191919);
         }
 
-        &.conmebol_motm {
-          background-image: url("../images/cards/20/conmebol_motm.png");
-          color: #242424;
+        &.fut-bd {
+          background-image: url("../images/cards/20/fut-bd.png");
+          color: #4AFFE0;
 
           .playercard-line {
-            border-color: #cf9f66;
+            border-color: #06BDDE;
           }
 
           .playercard-rating, .playercard-position {
-            color: #cfa066;
+            color: #F5F5F5;
           }
 
           &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/conmebol_motm.png");
+            background-image: url("../images/cards/20/small/fut-bd.png");
           }
+
+          @include overlay(#D4343E);
         }
       }
     }
