@@ -225,7 +225,7 @@ const cards20 = {
     },
     conmebol_motm: {
         title: 'Libertadores MOTM',
-        class: 'conmebol_motm gold rare'
+        class: 'conmebol_motm rare'
     },
     'fut-bd': {
         title: 'FUT Birthday',

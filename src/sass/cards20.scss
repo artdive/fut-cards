@@ -1241,23 +1241,23 @@
 
           @include overlay(#D4343E);
         }
+      }
+    }
 
-        &.conmebol_motm {
-          background-image: url("../images/cards/20/conmebol_motm.png");
-          color: #242424;
+    &.conmebol_motm.rare {
+      background-image: url("../images/cards/20/conmebol_motm.png");
+      color: #242424;
 
-          .playercard-line {
-            border-color: #cf9f66;
-          }
+      .playercard-line {
+        border-color: #cf9f66;
+      }
 
-          .playercard-rating, .playercard-position {
-            color: #cfa066;
-          }
+      .playercard-rating, .playercard-position {
+        color: #cfa066;
+      }
 
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/conmebol_motm.png");
-          }
-        }
+      &.playercard-small, &.playercard-xsmall {
+        background-image: url("../images/cards/20/small/conmebol_motm.png");
       }
     }
   }
