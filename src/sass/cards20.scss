@@ -1130,23 +1130,6 @@
           @include overlay(#123C3D);
         }
 
-        &.europa_motm {
-          background-image: url("../images/cards/20/europa_motm.png");
-          color: #F5F5F5;
-
-          .playercard-name, .playercard-attr {
-            color: #2A1F10;
-          }
-
-          .playercard-line {
-            border-color: #D5D5D5;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/europa_motm.png");
-          }
-        }
-
         &.ucl_motm {
           background-image: url("../images/cards/20/ucl_motm.png");
           color: #F5F5F5;
@@ -1258,6 +1241,23 @@
 
       &.playercard-small, &.playercard-xsmall {
         background-image: url("../images/cards/20/small/conmebol_motm.png");
+      }
+    }
+
+    &.europa_motm.rare {
+      background-image: url("../images/cards/20/europa_motm.png");
+      color: #F5F5F5;
+
+      .playercard-name, .playercard-attr {
+        color: #2A1F10;
+      }
+
+      .playercard-line {
+        border-color: #D5D5D5;
+      }
+
+      &.playercard-small, &.playercard-xsmall {
+        background-image: url("../images/cards/20/small/europa_motm.png");
       }
     }
   }
