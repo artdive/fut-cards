@@ -1,6 +1,6 @@
 {
     "name": "fut-cards",
-    "version": "1.6.7",
+    "version": "1.6.6",
     "description": "...",
     "main": "./src/js/index.js",
     "author": {
