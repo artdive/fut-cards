@@ -223,6 +223,10 @@ const cards20 = {
         title: 'TOTW Moments',
         class: 'b_moments gold rare'
     },
+    s_moments: {
+        title: 'TOTW Moments Silver',
+        class: 's_moments silver rare'
+    },
     conmebol_motm: {
         title: 'Libertadores MOTM',
         class: 'conmebol_motm rare'

@@ -490,6 +490,21 @@
 
           @include overlay(#4D0F0E);
         }
+
+        &.s_moments {
+          background-image: url("../images/cards/20/s_moments.png");
+          color: #E8E8E9;
+
+          .playercard-line {
+            border-color: #6E6E6E;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/s_moments.png");
+          }
+
+          @include overlay(#191919);
+        }
       }
     }
 
