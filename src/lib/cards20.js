@@ -234,6 +234,10 @@ const cards20 = {
     'fut-bd': {
         title: 'FUT Birthday',
         class: 'fut-bd gold rare'
+    },
+    tots: {
+        title: 'Team of the Season Gold',
+        class: 'tots gold rare'
     }
 };
 

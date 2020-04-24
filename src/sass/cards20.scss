@@ -1239,6 +1239,21 @@
 
           @include overlay(#D4343E);
         }
+
+        &.tots {
+          background-image: url("../images/cards/20/tots.png");
+          color: #EEDC82;
+
+          .playercard-line {
+            border-color: #14A3A4;
+          }
+
+          &.playercard-small, &.playercard-xsmall {
+            background-image: url("../images/cards/20/small/tots.png");
+          }
+
+          @include overlay(#00274C);
+        }
       }
     }
 
