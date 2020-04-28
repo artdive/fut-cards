@@ -816,21 +816,6 @@
           @include overlay(#121620);
         }
 
-        &.purple {
-          background-image: url("../images/cards/20/purple.png");
-          color: #f9e500;
-
-          .playercard-line {
-            border-color: #ff357c;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/purple.png");
-          }
-
-          @include overlay(#241A44);
-        }
-
         &.award-winner {
           background-image: url("../images/cards/20/award-winner.png");
           color: #C4FA4B;
@@ -1289,6 +1274,21 @@
       &.playercard-small, &.playercard-xsmall {
         background-image: url("../images/cards/20/small/europa_motm.png");
       }
+    }
+
+    &.purple.rare {
+      background-image: url("../images/cards/20/purple.png");
+      color: #f9e500;
+
+      .playercard-line {
+        border-color: #ff357c;
+      }
+
+      &.playercard-small, &.playercard-xsmall {
+        background-image: url("../images/cards/20/small/purple.png");
+      }
+
+      @include overlay(#241A44);
     }
   }
 }

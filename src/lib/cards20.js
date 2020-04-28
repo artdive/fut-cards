@@ -105,7 +105,7 @@ const cards20 = {
     },
     purple: {
         title: 'Hero',
-        class: 'purple gold rare'
+        class: 'purple rare'
     },
     'award-winner': {
         title: 'Award Winner',
