@@ -369,8 +369,8 @@
 
     /* --------- */
 
-    &.bronze {
-      &.non-rare {
+    &.non-rare {
+      &.bronze {
         background-image: url("../images/cards/20/bronze_non_rare.png");
         color: #4d331f;
 
@@ -383,7 +383,35 @@
         }
       }
 
-      &.rare {
+      &.silver {
+        background-image: url("../images/cards/20/silver_non_rare.png");
+        color: #3b3d41;
+
+        .playercard-line {
+          border-color: #343839;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/silver_non_rare.png");
+        }
+      }
+
+      &.gold {
+        background-image: url("../images/cards/20/gold_non_rare.png");
+        color: #4d331f;
+
+        .playercard-line {
+          border-color: #574A2B;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/gold_non_rare.png");
+        }
+      }
+    }
+
+    &.rare {
+      &.bronze {
         background-image: url("../images/cards/20/bronze.png");
         color: #4d331f;
 
@@ -429,23 +457,8 @@
           @include overlay(#4D0F0E);
         }
       }
-    }
 
-    &.silver {
-      &.non-rare {
-        background-image: url("../images/cards/20/silver_non_rare.png");
-        color: #3b3d41;
-
-        .playercard-line {
-          border-color: #343839;
-        }
-
-        &.playercard-small, &.playercard-xsmall {
-          background-image: url("../images/cards/20/small/silver_non_rare.png");
-        }
-      }
-
-      &.rare {
+      &.silver {
         background-image: url("../images/cards/20/silver.png");
         color: #3b3d41;
 
@@ -490,39 +503,9 @@
 
           @include overlay(#4D0F0E);
         }
-
-        &.s_moments {
-          background-image: url("../images/cards/20/s_moments.png");
-          color: #E8E8E9;
-
-          .playercard-line {
-            border-color: #6E6E6E;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/s_moments.png");
-          }
-
-          @include overlay(#191919);
-        }
-      }
-    }
-
-    &.gold {
-      &.non-rare {
-        background-image: url("../images/cards/20/gold_non_rare.png");
-        color: #4d331f;
-
-        .playercard-line {
-          border-color: #574A2B;
-        }
-
-        &.playercard-small, &.playercard-xsmall {
-          background-image: url("../images/cards/20/small/gold_non_rare.png");
-        }
       }
 
-      &.rare {
+      &.gold {
         background-image: url("../images/cards/20/gold.png");
         color: #4d331f;
 
@@ -532,36 +515,6 @@
 
         &.playercard-small, &.playercard-xsmall {
           background-image: url("../images/cards/20/small/gold.png");
-        }
-
-        &.icon {
-          background-image: url("../images/cards/20/icon.png");
-          color: #625217;
-
-          .playercard-line {
-            border-color: #aa9e6f;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/icon.png");
-          }
-
-          @include overlay(#fff);
-        }
-
-        &.icon_moment {
-          background-image: url("../images/cards/20/icon_moment.png");
-          color: #625217;
-
-          .playercard-line {
-            border-color: #aa9e6f;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/icon_moment.png");
-          }
-
-          @include overlay(#fff);
         }
 
         &.if {
@@ -583,314 +536,6 @@
           @include overlay(#000);
         }
 
-        &.otw {
-          background-image: url("../images/cards/20/otw.png");
-          color: #FC5461;
-
-          .playercard-name {
-            color: #ea598d;
-          }
-
-          .playercard-line {
-            border-color: #FAFA20;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/otw.png");
-          }
-
-          @include overlay(#000a2d);
-        }
-
-        &.sbc_premium {
-          background-image: url("../images/cards/20/sbc_premium.png");
-          color: #00FCFF;
-
-          .playercard-line {
-            border-color: #F000FF;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/sbc_premium.png");
-          }
-
-          @include overlay(#642289);
-        }
-
-        &.sbc_flashback {
-          background-image: url("../images/cards/20/sbc_flashback.png");
-          color: #EBFFB0;
-
-          .playercard-line {
-            border-color: #14F6F3;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/sbc_flashback.png");
-          }
-
-          @include overlay(#2A7B77);
-        }
-
-        &.potm_epl {
-          background-image: url("../images/cards/20/potm_epl.png");
-          color: #05F1FF;
-
-          .playercard-line {
-            border-color: #FF2882;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/potm_epl.png");
-          }
-
-          @include overlay(#37003C);
-        }
-
-        &.potm_bundesliga {
-          background-image: url("../images/cards/20/potm_bundesliga.png");
-          color: #F5F5F5;
-
-          .playercard-line {
-            border-color: #B6757A;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/potm_bundesliga.png");
-          }
-
-          @include overlay(#86030D);
-        }
-
-        &.potm_mls {
-          background-image: url("../images/cards/20/potm_mls.png");
-          color: #ffffff;
-
-          .playercard-line {
-            border-color: #0066A6;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/potm_mls.png");
-          }
-
-          @include overlay(#002658);
-        }
-
-        &.potm_ligue1 {
-          background-image: url("../images/cards/20/potm_ligue1.png");
-          color: #DBE120;
-
-          .playercard-line {
-            border-color: #E2001A;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/potm_ligue1.png");
-          }
-
-          @include overlay(#11233F);
-        }
-
-        &.halloween {
-          background-image: url("../images/cards/20/halloween.png");
-          color: #FF690D;
-
-          .playercard-line {
-            border-color: #A74F14;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/halloween.png");
-          }
-
-          @include overlay(#050208);
-        }
-
-        &.sbc {
-          background-image: url("../images/cards/20/sbc.png");
-          color: #00FCFF;
-
-          .playercard-line {
-            border-color: #F000FF;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/sbc.png");
-          }
-
-          @include overlay(#791496);
-        }
-
-        &.ucl_rare {
-          background-image: url("../images/cards/20/ucl_rare.png");
-          color: #F5F5F5;
-
-          .playercard-line {
-            border-color: #5AF7DC;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/ucl_rare.png");
-          }
-
-          @include overlay(#050b7e);
-          @include champions();
-        }
-
-        &.ucl_non_rare {
-          background-image: url("../images/cards/20/ucl_non_rare.png");
-          color: #F5F5F5;
-
-          .playercard-line {
-            border-color: #5AF7DC;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/ucl_non_rare.png");
-          }
-
-          @include overlay(#050b7e);
-          @include champions();
-        }
-
-        &.ucl_sbc {
-          background-image: url("../images/cards/20/ucl_sbc.png");
-          color: #F5F5F5;
-
-          .playercard-line {
-            border-color: #FF00FF;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/ucl_sbc.png");
-          }
-
-          @include overlay(#19369A);
-          @include champions();
-        }
-
-        &.ucl_live {
-          background-image: url("../images/cards/20/ucl_live.png");
-          color: #88F3DD;
-
-          .playercard-line {
-            border-color: #EA41F7;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/ucl_live.png");
-          }
-
-          @include overlay(#000324);
-          @include champions();
-        }
-
-        &.objective_reward {
-          background-image: url("../images/cards/20/objective_reward.png");
-          color: #fafa20;
-
-          .playercard-line {
-            border-color: #fc5461;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/objective_reward.png");
-          }
-
-          @include overlay(#121620);
-        }
-
-        &.objective_reward_2 {
-          background-image: url("../images/cards/20/objective_reward_2.png");
-          color: #FC5461;
-
-          .playercard-line {
-            border-color: #40FCFF;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/objective_reward_2.png");
-          }
-
-          @include overlay(#121620);
-        }
-
-        &.award-winner {
-          background-image: url("../images/cards/20/award-winner.png");
-          color: #C4FA4B;
-
-          .playercard-line {
-            border-color: #00F6FF;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/award-winner.png");
-          }
-
-          @include overlay(#380062);
-        }
-
-        &.bluered {
-          background-image: url("../images/cards/20/bluered.png");
-          color: #FAFA20;
-
-          .playercard-line {
-            border-color: #FC5461;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/bluered.png");
-          }
-
-          @include overlay(#C62B2F);
-        }
-
-        &.pro {
-          background-image: url("../images/cards/20/pro.png");
-          color: #E6E6E6;
-
-          .playercard-line {
-            border-color: #7DFBEF;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/pro.png");
-          }
-
-          @include overlay(#2CA496);
-        }
-
-        &.icon_swap_1 {
-          background-image: url("../images/cards/20/icon_swap_1.png");
-          color: #E3E2DE;
-
-          .playercard-line {
-            border-color: #4B4435;
-          }
-
-          .playercard-rating, .playercard-position {
-            color: #201C10;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/icon_swap_1.png");
-          }
-        }
-
-        &.icon_swap_2 {
-          background-image: url("../images/cards/20/icon_swap_2.png");
-          color: #4b4435;
-
-          .playercard-line {
-            border-color: #4b4435;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/icon_swap_2.png");
-          }
-        }
-
         &.fut-champ {
           background-image: url("../images/cards/20/champion_gold.png");
           color: #FFE28C;
@@ -905,390 +550,743 @@
 
           @include overlay(#4D0F0E);
         }
+      }
 
-        &.europa_live {
-          background-image: url("../images/cards/20/europa_live.png");
-          color: #030303;
+      &.s_moments {
+        background-image: url("../images/cards/20/s_moments.png");
+        color: #E8E8E9;
 
-          .playercard-line {
-            border-color: #030303;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/europa_live.png");
-          }
-
-          @include overlay(#FFBA01);
+        .playercard-line {
+          border-color: #6E6E6E;
         }
 
-        &.potm_laliga {
-          background-image: url("../images/cards/20/potm_laliga.png");
-          color: #90D9EB;
-
-          .playercard-line {
-            border-color: #D9DCBC;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/potm_laliga.png");
-          }
-
-          @include overlay(#0C1B21);
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/s_moments.png");
         }
 
-        &.f_moment {
-          background-image: url("../images/cards/20/f_moment.png");
-          color: #FFD801;
+        @include overlay(#191919);
+      }
 
-          .playercard-line {
-            border-color: #FFD801;
-          }
+      &.icon {
+        background-image: url("../images/cards/20/icon.png");
+        color: #625217;
 
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/f_moment.png");
-          }
-
-          @include overlay(#154550);
+        .playercard-line {
+          border-color: #aa9e6f;
         }
 
-        &.ucl_tott {
-          background-image: url("../images/cards/20/ucl_tott.png");
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/icon.png");
+        }
+
+        @include overlay(#fff);
+      }
+
+      &.icon_moment {
+        background-image: url("../images/cards/20/icon_moment.png");
+        color: #625217;
+
+        .playercard-line {
+          border-color: #aa9e6f;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/icon_moment.png");
+        }
+
+        @include overlay(#fff);
+      }
+
+      &.otw {
+        background-image: url("../images/cards/20/otw.png");
+        color: #FC5461;
+
+        .playercard-name {
+          color: #ea598d;
+        }
+
+        .playercard-line {
+          border-color: #FAFA20;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/otw.png");
+        }
+
+        @include overlay(#000a2d);
+      }
+
+      &.sbc_premium {
+        background-image: url("../images/cards/20/sbc_premium.png");
+        color: #00FCFF;
+
+        .playercard-line {
+          border-color: #F000FF;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/sbc_premium.png");
+        }
+
+        @include overlay(#642289);
+      }
+
+      &.sbc_flashback {
+        background-image: url("../images/cards/20/sbc_flashback.png");
+        color: #EBFFB0;
+
+        .playercard-line {
+          border-color: #14F6F3;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/sbc_flashback.png");
+        }
+
+        @include overlay(#2A7B77);
+      }
+
+      &.potm_epl {
+        background-image: url("../images/cards/20/potm_epl.png");
+        color: #05F1FF;
+
+        .playercard-line {
+          border-color: #FF2882;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/potm_epl.png");
+        }
+
+        @include overlay(#37003C);
+      }
+
+      &.potm_bundesliga {
+        background-image: url("../images/cards/20/potm_bundesliga.png");
+        color: #F5F5F5;
+
+        .playercard-line {
+          border-color: #B6757A;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/potm_bundesliga.png");
+        }
+
+        @include overlay(#86030D);
+      }
+
+      &.potm_mls {
+        background-image: url("../images/cards/20/potm_mls.png");
+        color: #ffffff;
+
+        .playercard-line {
+          border-color: #0066A6;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/potm_mls.png");
+        }
+
+        @include overlay(#002658);
+      }
+
+      &.potm_ligue1 {
+        background-image: url("../images/cards/20/potm_ligue1.png");
+        color: #DBE120;
+
+        .playercard-line {
+          border-color: #E2001A;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/potm_ligue1.png");
+        }
+
+        @include overlay(#11233F);
+      }
+
+      &.halloween {
+        background-image: url("../images/cards/20/halloween.png");
+        color: #FF690D;
+
+        .playercard-line {
+          border-color: #A74F14;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/halloween.png");
+        }
+
+        @include overlay(#050208);
+      }
+
+      &.sbc {
+        background-image: url("../images/cards/20/sbc.png");
+        color: #00FCFF;
+
+        .playercard-line {
+          border-color: #F000FF;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/sbc.png");
+        }
+
+        @include overlay(#791496);
+      }
+
+      &.ucl_rare {
+        background-image: url("../images/cards/20/ucl_rare.png");
+        color: #F5F5F5;
+
+        .playercard-line {
+          border-color: #5AF7DC;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/ucl_rare.png");
+        }
+
+        @include overlay(#050b7e);
+        @include champions();
+      }
+
+      &.ucl_non_rare {
+        background-image: url("../images/cards/20/ucl_non_rare.png");
+        color: #F5F5F5;
+
+        .playercard-line {
+          border-color: #5AF7DC;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/ucl_non_rare.png");
+        }
+
+        @include overlay(#050b7e);
+        @include champions();
+      }
+
+      &.ucl_sbc {
+        background-image: url("../images/cards/20/ucl_sbc.png");
+        color: #F5F5F5;
+
+        .playercard-line {
+          border-color: #FF00FF;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/ucl_sbc.png");
+        }
+
+        @include overlay(#19369A);
+        @include champions();
+      }
+
+      &.ucl_live {
+        background-image: url("../images/cards/20/ucl_live.png");
+        color: #88F3DD;
+
+        .playercard-line {
+          border-color: #EA41F7;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/ucl_live.png");
+        }
+
+        @include overlay(#000324);
+        @include champions();
+      }
+
+      &.objective_reward {
+        background-image: url("../images/cards/20/objective_reward.png");
+        color: #fafa20;
+
+        .playercard-line {
+          border-color: #fc5461;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/objective_reward.png");
+        }
+
+        @include overlay(#121620);
+      }
+
+      &.objective_reward_2 {
+        background-image: url("../images/cards/20/objective_reward_2.png");
+        color: #FC5461;
+
+        .playercard-line {
+          border-color: #40FCFF;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/objective_reward_2.png");
+        }
+
+        @include overlay(#121620);
+      }
+
+      &.award-winner {
+        background-image: url("../images/cards/20/award-winner.png");
+        color: #C4FA4B;
+
+        .playercard-line {
+          border-color: #00F6FF;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/award-winner.png");
+        }
+
+        @include overlay(#380062);
+      }
+
+      &.bluered {
+        background-image: url("../images/cards/20/bluered.png");
+        color: #FAFA20;
+
+        .playercard-line {
+          border-color: #FC5461;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/bluered.png");
+        }
+
+        @include overlay(#C62B2F);
+      }
+
+      &.conmebol_motm {
+        background-image: url("../images/cards/20/conmebol_motm.png");
+        color: #242424;
+
+        .playercard-line {
+          border-color: #cf9f66;
+        }
+
+        .playercard-rating, .playercard-position {
+          color: #cfa066;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/conmebol_motm.png");
+        }
+      }
+
+      &.europa_motm {
+        background-image: url("../images/cards/20/europa_motm.png");
+        color: #F5F5F5;
+
+        .playercard-name, .playercard-attr {
+          color: #2A1F10;
+        }
+
+        .playercard-line {
+          border-color: #D5D5D5;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/europa_motm.png");
+        }
+      }
+
+      &.purple {
+        background-image: url("../images/cards/20/purple.png");
+        color: #f9e500;
+
+        .playercard-line {
+          border-color: #ff357c;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/purple.png");
+        }
+
+        @include overlay(#241A44);
+      }
+
+      &.motm {
+        background-image: url("../images/cards/20/motm.png");
+        color: #e6e6e6;
+
+        .playercard-line {
+          border-color: #fcbd67;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/motm.png");
+        }
+
+        @include overlay(#d96920);
+      }
+
+      &.tots {
+        background-image: url("../images/cards/20/tots.png");
+        color: #EEDC82;
+
+        .playercard-line {
+          border-color: #14A3A4;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/tots.png");
+        }
+
+        @include overlay(#00274C);
+      }
+
+      &.fut-bd {
+        background-image: url("../images/cards/20/fut-bd.png");
+        color: #4AFFE0;
+
+        .playercard-line {
+          border-color: #06BDDE;
+        }
+
+        .playercard-rating, .playercard-position {
           color: #F5F5F5;
-
-          .playercard-line {
-            border-color: #C6C9E2;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/ucl_tott.png");
-          }
-
-          @include overlay(#000a7b);
-          @include champions();
         }
 
-        &.europa_tott {
-          background-image: url("../images/cards/20/europa_tott.png");
-          color: #F5F5F5;
-
-          .playercard-line {
-            border-color: #F39200;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/europa_tott.png");
-          }
-
-          @include overlay(#000);
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/fut-bd.png");
         }
 
-        &.futmas {
-          background-image: url("../images/cards/20/futmas.png");
-          color: #ffffff;
-
-          .playercard-line {
-            border-color: #19c16e;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/futmas.png");
-          }
-
-          @include overlay(#640c10);
-        }
-
-        &.toty_nominee {
-          background-image: url("../images/cards/20/toty_nominee.png");
-          color: #efd668;
-
-          .playercard-line {
-            border-color: #efd668;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/toty_nominee.png");
-          }
-        }
-
-        &.toty {
-          background-image: url("../images/cards/20/toty.png");
-          color: #efd668;
-
-          .playercard-line {
-            border-color: #efd668;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/toty.png");
-          }
-
-          @include overlay(#00033E);
-        }
-
-        &.headliners {
-          background-image: url("../images/cards/20/headliners.png");
-          color: #fff;
-
-          .playercard-line {
-            border-color: #FFCE0B;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/headliners.png");
-          }
-
-          @include overlay(#9B0F2D);
-        }
-
-        &.headliners_2 {
-          background-image: url("../images/cards/20/headliners_2.png");
-          color: #fff;
-
-          .playercard-line {
-            border-color: #FFCE0B;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/headliners_2.png");
-          }
-
-          @include overlay(#9B0F2D);
-        }
-
-        &.future_stars {
-          background-image: url("../images/cards/20/future_stars.png");
-          color: #fafa20;
-
-          .playercard-line {
-            border-color: #9d00b2;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/future_stars.png");
-          }
-
-          @include overlay(#F100C4);
-        }
-
-        &.future_stars_2 {
-          background-image: url("../images/cards/20/future_stars_2.png");
-          color: #fafa20;
-
-          .playercard-line {
-            border-color: #9d00b2;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/future_stars_2.png");
-          }
-
-          @include overlay(#F100C4);
-        }
-
-        &.motm {
-          background-image: url("../images/cards/20/motm.png");
-          color: #e6e6e6;
-
-          .playercard-line {
-            border-color: #fcbd67;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/motm.png");
-          }
-
-          @include overlay(#d96920);
-        }
-
-        &.winter_refresh {
-          background-image: url("../images/cards/20/winter_refresh.png");
-          color: #42FF94;
-
-          .playercard-line {
-            border-color: #83c1ec;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/winter_refresh.png");
-          }
-
-          @include overlay(#0283C6);
-        }
-
-        &.shapeshifter {
-          background-image: url("../images/cards/20/shapeshifter.png");
-          color: #fff;
-
-          .playercard-line {
-            border-color: #9DFFC6;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/shapeshifter.png");
-          }
-
-          @include overlay(#123C3D);
-        }
-
-        &.ucl_motm {
-          background-image: url("../images/cards/20/ucl_motm.png");
-          color: #F5F5F5;
-
-          .playercard-line {
-            border-color: #C6C9E2;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/ucl_motm.png");
-          }
-
-          @include overlay(#0c2080);
-          @include champions();
-        }
-
-        &.libertadores_b {
-          background-image: url("../images/cards/20/libertadores_b.png");
-          color: #D8D8D8;
-
-          .playercard-line {
-            border-color: #D0A168;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/libertadores_b.png");
-          }
-
-          @include overlay(#242424);
-        }
-
-        &.libertadores_g {
-          background-image: url("../images/cards/20/libertadores_g.png");
-          color: #E4E4E4;
-
-          .playercard-line {
-            border-color: #A88041;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/libertadores_g.png");
-          }
-
-          @include overlay(#2B1E0B);
-        }
-
-        &.sudamericana {
-          background-image: url("../images/cards/20/sudamericana.png");
-          color: #D8D8D8;
-
-          .playercard-line {
-            border-color: #5E5E5E;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/sudamericana.png");
-          }
-
-          @include overlay(#242424);
-        }
-
-        &.b_moments {
-          background-image: url("../images/cards/20/b_moments.png");
-          color: #EEDC82;
-
-          .playercard-line {
-            border-color: #705F30;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/b_moments.png");
-          }
-
-          @include overlay(#191919);
-        }
-
-        &.fut-bd {
-          background-image: url("../images/cards/20/fut-bd.png");
-          color: #4AFFE0;
-
-          .playercard-line {
-            border-color: #06BDDE;
-          }
-
-          .playercard-rating, .playercard-position {
-            color: #F5F5F5;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/fut-bd.png");
-          }
-
-          @include overlay(#D4343E);
-        }
-
-        &.tots {
-          background-image: url("../images/cards/20/tots.png");
-          color: #EEDC82;
-
-          .playercard-line {
-            border-color: #14A3A4;
-          }
-
-          &.playercard-small, &.playercard-xsmall {
-            background-image: url("../images/cards/20/small/tots.png");
-          }
-
-          @include overlay(#00274C);
-        }
-      }
-    }
-
-    &.conmebol_motm.rare {
-      background-image: url("../images/cards/20/conmebol_motm.png");
-      color: #242424;
-
-      .playercard-line {
-        border-color: #cf9f66;
+        @include overlay(#D4343E);
       }
 
-      .playercard-rating, .playercard-position {
-        color: #cfa066;
+      &.b_moments {
+        background-image: url("../images/cards/20/b_moments.png");
+        color: #EEDC82;
+
+        .playercard-line {
+          border-color: #705F30;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/b_moments.png");
+        }
+
+        @include overlay(#191919);
       }
 
-      &.playercard-small, &.playercard-xsmall {
-        background-image: url("../images/cards/20/small/conmebol_motm.png");
-      }
-    }
+      &.libertadores_g {
+        background-image: url("../images/cards/20/libertadores_g.png");
+        color: #E4E4E4;
 
-    &.europa_motm.rare {
-      background-image: url("../images/cards/20/europa_motm.png");
-      color: #F5F5F5;
+        .playercard-line {
+          border-color: #A88041;
+        }
 
-      .playercard-name, .playercard-attr {
-        color: #2A1F10;
-      }
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/libertadores_g.png");
+        }
 
-      .playercard-line {
-        border-color: #D5D5D5;
+        @include overlay(#2B1E0B);
       }
 
-      &.playercard-small, &.playercard-xsmall {
-        background-image: url("../images/cards/20/small/europa_motm.png");
-      }
-    }
+      &.sudamericana {
+        background-image: url("../images/cards/20/sudamericana.png");
+        color: #D8D8D8;
 
-    &.purple.rare {
-      background-image: url("../images/cards/20/purple.png");
-      color: #f9e500;
+        .playercard-line {
+          border-color: #5E5E5E;
+        }
 
-      .playercard-line {
-        border-color: #ff357c;
-      }
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/sudamericana.png");
+        }
 
-      &.playercard-small, &.playercard-xsmall {
-        background-image: url("../images/cards/20/small/purple.png");
+        @include overlay(#242424);
       }
 
-      @include overlay(#241A44);
+      &.ucl_motm {
+        background-image: url("../images/cards/20/ucl_motm.png");
+        color: #F5F5F5;
+
+        .playercard-line {
+          border-color: #C6C9E2;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/ucl_motm.png");
+        }
+
+        @include overlay(#0c2080);
+        @include champions();
+      }
+
+      &.libertadores_b {
+        background-image: url("../images/cards/20/libertadores_b.png");
+        color: #D8D8D8;
+
+        .playercard-line {
+          border-color: #D0A168;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/libertadores_b.png");
+        }
+
+        @include overlay(#242424);
+      }
+
+      &.winter_refresh {
+        background-image: url("../images/cards/20/winter_refresh.png");
+        color: #42FF94;
+
+        .playercard-line {
+          border-color: #83c1ec;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/winter_refresh.png");
+        }
+
+        @include overlay(#0283C6);
+      }
+
+      &.shapeshifter {
+        background-image: url("../images/cards/20/shapeshifter.png");
+        color: #fff;
+
+        .playercard-line {
+          border-color: #9DFFC6;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/shapeshifter.png");
+        }
+
+        @include overlay(#123C3D);
+      }
+
+      &.future_stars {
+        background-image: url("../images/cards/20/future_stars.png");
+        color: #fafa20;
+
+        .playercard-line {
+          border-color: #9d00b2;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/future_stars.png");
+        }
+
+        @include overlay(#F100C4);
+      }
+
+      &.future_stars_2 {
+        background-image: url("../images/cards/20/future_stars_2.png");
+        color: #fafa20;
+
+        .playercard-line {
+          border-color: #9d00b2;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/future_stars_2.png");
+        }
+
+        @include overlay(#F100C4);
+      }
+
+      &.headliners {
+        background-image: url("../images/cards/20/headliners.png");
+        color: #fff;
+
+        .playercard-line {
+          border-color: #FFCE0B;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/headliners.png");
+        }
+
+        @include overlay(#9B0F2D);
+      }
+
+      &.headliners_2 {
+        background-image: url("../images/cards/20/headliners_2.png");
+        color: #fff;
+
+        .playercard-line {
+          border-color: #FFCE0B;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/headliners_2.png");
+        }
+
+        @include overlay(#9B0F2D);
+      }
+
+      &.toty_nominee {
+        background-image: url("../images/cards/20/toty_nominee.png");
+        color: #efd668;
+
+        .playercard-line {
+          border-color: #efd668;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/toty_nominee.png");
+        }
+      }
+
+      &.toty {
+        background-image: url("../images/cards/20/toty.png");
+        color: #efd668;
+
+        .playercard-line {
+          border-color: #efd668;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/toty.png");
+        }
+
+        @include overlay(#00033E);
+      }
+
+      &.europa_tott {
+        background-image: url("../images/cards/20/europa_tott.png");
+        color: #F5F5F5;
+
+        .playercard-line {
+          border-color: #F39200;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/europa_tott.png");
+        }
+
+        @include overlay(#000);
+      }
+
+      &.futmas {
+        background-image: url("../images/cards/20/futmas.png");
+        color: #ffffff;
+
+        .playercard-line {
+          border-color: #19c16e;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/futmas.png");
+        }
+
+        @include overlay(#640c10);
+      }
+
+      &.f_moment {
+        background-image: url("../images/cards/20/f_moment.png");
+        color: #FFD801;
+
+        .playercard-line {
+          border-color: #FFD801;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/f_moment.png");
+        }
+
+        @include overlay(#154550);
+      }
+
+      &.ucl_tott {
+        background-image: url("../images/cards/20/ucl_tott.png");
+        color: #F5F5F5;
+
+        .playercard-line {
+          border-color: #C6C9E2;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/ucl_tott.png");
+        }
+
+        @include overlay(#000a7b);
+        @include champions();
+      }
+
+      &.europa_live {
+        background-image: url("../images/cards/20/europa_live.png");
+        color: #030303;
+
+        .playercard-line {
+          border-color: #030303;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/europa_live.png");
+        }
+
+        @include overlay(#FFBA01);
+      }
+
+      &.potm_laliga {
+        background-image: url("../images/cards/20/potm_laliga.png");
+        color: #90D9EB;
+
+        .playercard-line {
+          border-color: #D9DCBC;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/potm_laliga.png");
+        }
+
+        @include overlay(#0C1B21);
+      }
+
+      &.icon_swap_2 {
+        background-image: url("../images/cards/20/icon_swap_2.png");
+        color: #4b4435;
+
+        .playercard-line {
+          border-color: #4b4435;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/icon_swap_2.png");
+        }
+      }
+
+      &.pro {
+        background-image: url("../images/cards/20/pro.png");
+        color: #E6E6E6;
+
+        .playercard-line {
+          border-color: #7DFBEF;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/pro.png");
+        }
+
+        @include overlay(#2CA496);
+      }
+
+      &.icon_swap_1 {
+        background-image: url("../images/cards/20/icon_swap_1.png");
+        color: #E3E2DE;
+
+        .playercard-line {
+          border-color: #4B4435;
+        }
+
+        .playercard-rating, .playercard-position {
+          color: #201C10;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/icon_swap_1.png");
+        }
+      }
     }
   }
 }
