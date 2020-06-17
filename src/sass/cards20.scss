@@ -1287,6 +1287,49 @@
           background-image: url("../images/cards/20/small/icon_swap_1.png");
         }
       }
+
+      &.totssfn {
+        background-image: url("../images/cards/20/totssfn.png");
+        color: #EED170;
+
+        .playercard-line {
+          border-color: #108B92;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/totssfn.png");
+        }
+      }
+
+      &.summer_heat {
+        background-image: url("../images/cards/20/summer_heat.png");
+        color: #CF0234;
+
+        .playercard-line {
+          border-color: #EF5278;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/summer_heat.png");
+        }
+
+        @include overlay(#EAF6E5);
+      }
+
+      &.summer_heat_nominee {
+        background-image: url("../images/cards/20/summer_heat_nominee.png");
+        color: #CF0234;
+
+        .playercard-line {
+          border-color: #EF5278;
+        }
+
+        &.playercard-small, &.playercard-xsmall {
+          background-image: url("../images/cards/20/small/summer_heat_nominee.png");
+        }
+
+        @include overlay(#EAF6E5);
+      }
     }
   }
 }

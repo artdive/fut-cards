@@ -236,8 +236,20 @@ const cards20 = {
         class: 'fut-bd rare'
     },
     tots: {
-        title: 'Team of the Season Gold',
+        title: 'TOTS So Far',
         class: 'tots rare'
+    },
+    totssfn: {
+        title: 'Team of the Season Moments',
+        class: 'totssfn rare'
+    },
+    summer_heat: {
+        title: 'Summer Heat',
+        class: 'summer_heat rare'
+    },
+    summer_heat_nominee: {
+        title: 'Summer Heat Nominees',
+        class: 'summer_heat_nominee rare'
     }
 };
 
